@@ -1,0 +1,205 @@
+{
+  "budget2500": {
+    "listings": {
+      "Brooklyn": {
+        "area_name": "Bushwick",
+        "price": 2500,
+        "bedroom_count": 1,
+        "full_bathroom_count": 1,
+        "living_area_size": 0,
+        "lead_media_photo": "6fa80879c605c7f256377cd17329f07b",
+        "url_path": "/building/1104-bushwick-avenue-brooklyn/3ff",
+        "street": "1104 Bushwick Avenue",
+        "price_diff": 0
+      },
+      "Queens": {
+        "area_name": "Astoria",
+        "price": 2500,
+        "bedroom_count": 1,
+        "full_bathroom_count": 1,
+        "living_area_size": 0,
+        "lead_media_photo": "a764e344f4664610ba3a04f24c4666bf",
+        "url_path": "/building/25_68-37-street-astoria/14",
+        "street": "25-68 37th Street",
+        "price_diff": 0
+      },
+      "Bronx": {
+        "area_name": "Mott Haven",
+        "price": 2500,
+        "bedroom_count": 1,
+        "full_bathroom_count": 1,
+        "living_area_size": 0,
+        "lead_media_photo": "34021fcb9acd8153768cac93486f897b",
+        "url_path": "/building/the-arches/501s",
+        "street": "228 East 135th Street",
+        "price_diff": 0
+      }
+    },
+    "generated_at": "2026-02-22T21:17:15.156Z"
+  },
+  "rentDrops": {
+    "neighborhoods": [
+      {
+        "area_name": "Lenox Hill",
+        "jan_median": 3898,
+        "dec_median": 4450,
+        "price_drop": 552,
+        "listing_count": "310"
+      },
+      {
+        "area_name": "Wingate",
+        "jan_median": 2875,
+        "dec_median": 3395,
+        "price_drop": 520,
+        "listing_count": "44"
+      },
+      {
+        "area_name": "Cobble Hill",
+        "jan_median": 3580,
+        "dec_median": 4100,
+        "price_drop": 520,
+        "listing_count": "23"
+      },
+      {
+        "area_name": "Sheepshead Bay",
+        "jan_median": 2692,
+        "dec_median": 3195,
+        "price_drop": 503,
+        "listing_count": "16"
+      },
+      {
+        "area_name": "Riverdale",
+        "jan_median": 2800,
+        "dec_median": 3272,
+        "price_drop": 472,
+        "listing_count": "27"
+      },
+      {
+        "area_name": "Ridgewood",
+        "jan_median": 3000,
+        "dec_median": 3400,
+        "price_drop": 400,
+        "listing_count": "147"
+      },
+      {
+        "area_name": "Midtown South",
+        "jan_median": 4802,
+        "dec_median": 5200,
+        "price_drop": 398,
+        "listing_count": "97"
+      },
+      {
+        "area_name": "Tribeca",
+        "jan_median": 6956,
+        "dec_median": 7298,
+        "price_drop": 342,
+        "listing_count": "94"
+      },
+      {
+        "area_name": "West Chelsea",
+        "jan_median": 5395,
+        "dec_median": 5728,
+        "price_drop": 333,
+        "listing_count": "81"
+      },
+      {
+        "area_name": "North Bergen",
+        "jan_median": 2482,
+        "dec_median": 2800,
+        "price_drop": 318,
+        "listing_count": "72"
+      }
+    ],
+    "exampleListings": {
+      "Lenox Hill": {
+        "area_name": "Lenox Hill",
+        "price": 49995,
+        "bedroom_count": 5,
+        "full_bathroom_count": 4,
+        "living_area_size": 3495,
+        "lead_media_photo": "9b771a541863701ee04d38f0c0d0bc1c",
+        "url_path": "/building/255-east-74-street-new_york/27a",
+        "street": "255 East 74th Street"
+      },
+      "Wingate": {
+        "area_name": "Wingate",
+        "price": 3500,
+        "bedroom_count": 4,
+        "full_bathroom_count": 2,
+        "living_area_size": 0,
+        "lead_media_photo": "63508f49a735f05e617b806a2d22f8c7",
+        "url_path": "/building/566-maple-street-brooklyn/2p",
+        "street": "566 Maple Street"
+      },
+      "Cobble Hill": {
+        "area_name": "Cobble Hill",
+        "price": 1500,
+        "bedroom_count": 1,
+        "full_bathroom_count": 1,
+        "living_area_size": 700,
+        "lead_media_photo": "14c2bf0de6c567466697a2a1717982f4",
+        "url_path": "/building/5-river-park/6a",
+        "street": "347 Henry Street"
+      }
+    },
+    "generated_at": "2026-02-22T21:17:15.156Z"
+  },
+  "januaryAnalysis": {
+    "stats": {
+      "total_listings": 17523,
+      "most_expensive": 49995,
+      "cheapest": 500,
+      "avg_sqft": 266,
+      "unique_neighborhoods": 248
+    },
+    "mostExpensive": {
+      "area_name": "Lenox Hill",
+      "price": 49995,
+      "bedroom_count": 5,
+      "full_bathroom_count": 4,
+      "living_area_size": 3495,
+      "street": "255 East 74th Street"
+    },
+    "cheapest": {
+      "area_name": "Port Richmond",
+      "price": 868,
+      "bedroom_count": 0,
+      "full_bathroom_count": 1,
+      "living_area_size": 0,
+      "street": "1540 Castleton Avenue"
+    },
+    "bedroomBreakdown": [
+      {
+        "bedroom_count": 0,
+        "count": 2876,
+        "percentage": 16
+      },
+      {
+        "bedroom_count": 1,
+        "count": 6992,
+        "percentage": 40
+      },
+      {
+        "bedroom_count": 2,
+        "count": 5377,
+        "percentage": 31
+      },
+      {
+        "bedroom_count": 3,
+        "count": 1869,
+        "percentage": 11
+      },
+      {
+        "bedroom_count": 4,
+        "count": 361,
+        "percentage": 2
+      },
+      {
+        "bedroom_count": 5,
+        "count": 51,
+        "percentage": 0
+      }
+    ],
+    "generated_at": "2026-02-22T21:17:15.156Z"
+  }
+}

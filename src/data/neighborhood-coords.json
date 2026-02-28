@@ -1,0 +1,872 @@
+{
+  "Astoria": {
+    "lat": 40.7643574,
+    "lng": -73.92346189999999,
+    "formatted": "Astoria, Queens, NY, USA"
+  },
+  "Bath Beach": {
+    "lat": 40.6038852,
+    "lng": -74.0062078,
+    "formatted": "Bath Beach, Brooklyn, NY, USA"
+  },
+  "Battery Park City": {
+    "lat": 40.7115786,
+    "lng": -74.0158441,
+    "formatted": "Battery Park City, New York, NY, USA"
+  },
+  "Bayonne": {
+    "lat": 40.6683557,
+    "lng": -74.1178151,
+    "formatted": "Bayonne, NJ, USA"
+  },
+  "Bay Ridge": {
+    "lat": 40.6263732,
+    "lng": -74.0298767,
+    "formatted": "Bay Ridge, Brooklyn, NY, USA"
+  },
+  "Bayside": {
+    "lat": 40.7602604,
+    "lng": -73.7692026,
+    "formatted": "Bayside, Queens, NY, USA"
+  },
+  "Bedford Park": {
+    "lat": 40.8700999,
+    "lng": -73.8856912,
+    "formatted": "Bedford Park, Bronx, NY 10458, USA"
+  },
+  "Bedford-Stuyvesant": {
+    "lat": 40.6872176,
+    "lng": -73.9417735,
+    "formatted": "Bedford-Stuyvesant, Brooklyn, NY, USA"
+  },
+  "Beekman": {
+    "lat": 41.6109269,
+    "lng": -73.7129076,
+    "formatted": "Beekman, NY 12533, USA"
+  },
+  "Belmont": {
+    "lat": 40.8534507,
+    "lng": -73.88936819999999,
+    "formatted": "Belmont, Bronx, NY, USA"
+  },
+  "Bensonhurst": {
+    "lat": 40.6139307,
+    "lng": -73.9921833,
+    "formatted": "Bensonhurst, Brooklyn, NY, USA"
+  },
+  "Bergen/Lafayette": {
+    "lat": 40.7111464,
+    "lng": -74.07407289999999,
+    "formatted": "Bergen-Lafayette, Jersey City, NJ, USA"
+  },
+  "Boerum Hill": {
+    "lat": 40.6848689,
+    "lng": -73.9844722,
+    "formatted": "Boerum Hill, Brooklyn, NY, USA"
+  },
+  "Borough Park": {
+    "lat": 40.6350319,
+    "lng": -73.9921028,
+    "formatted": "Borough Park, Brooklyn, NY, USA"
+  },
+  "Briarwood": {
+    "lat": 40.7109315,
+    "lng": -73.81356099999999,
+    "formatted": "Briarwood, Queens, NY, USA"
+  },
+  "Brighton Beach": {
+    "lat": 40.5780706,
+    "lng": -73.9596565,
+    "formatted": "Brighton Beach, Brooklyn, NY, USA"
+  },
+  "Bronxwood": {
+    "lat": 40.8768652,
+    "lng": -73.8597021,
+    "formatted": "Bronxwood Ave, Bronx, NY, USA"
+  },
+  "Brooklyn Heights": {
+    "lat": 40.6959294,
+    "lng": -73.9955523,
+    "formatted": "Brooklyn Heights, Brooklyn, NY, USA"
+  },
+  "Brownsville": {
+    "lat": 40.665214,
+    "lng": -73.9125304,
+    "formatted": "Brownsville, Brooklyn, NY, USA"
+  },
+  "Bushwick": {
+    "lat": 40.6957755,
+    "lng": -73.9170604,
+    "formatted": "Bushwick, Brooklyn, NY, USA"
+  },
+  "Canarsie": {
+    "lat": 40.640248,
+    "lng": -73.9060662,
+    "formatted": "Canarsie, Brooklyn, NY, USA"
+  },
+  "Carnegie Hill": {
+    "lat": 40.7844653,
+    "lng": -73.9550857,
+    "formatted": "Carnegie Hill, New York, NY, USA"
+  },
+  "Carroll Gardens": {
+    "lat": 40.6795331,
+    "lng": -73.9991637,
+    "formatted": "Carroll Gardens, Brooklyn, NY, USA"
+  },
+  "Central Harlem": {
+    "lat": 40.8089419,
+    "lng": -73.9482305,
+    "formatted": "Central Harlem, New York, NY, USA"
+  },
+  "Central Park South": {
+    "lat": 40.7661858,
+    "lng": -73.9773034,
+    "formatted": "Central Park S, New York, NY, USA"
+  },
+  "Chelsea": {
+    "lat": 40.7465004,
+    "lng": -74.00137370000002,
+    "formatted": "Chelsea, New York, NY, USA"
+  },
+  "Chinatown": {
+    "lat": 40.7157509,
+    "lng": -73.9970307,
+    "formatted": "Chinatown, New York, NY, USA"
+  },
+  "City Line": {
+    "lat": 40.6762144,
+    "lng": -73.88708059999999,
+    "formatted": "City Line, Brooklyn, NY 11207, USA"
+  },
+  "Cliffside Park": {
+    "lat": 40.8214325,
+    "lng": -73.9878794,
+    "formatted": "Cliffside Park, NJ, USA"
+  },
+  "Clinton Hill": {
+    "lat": 40.6896834,
+    "lng": -73.9661144,
+    "formatted": "Clinton Hill, Brooklyn, NY, USA"
+  },
+  "Cobble Hill": {
+    "lat": 40.686536,
+    "lng": -73.9962255,
+    "formatted": "Cobble Hill, Brooklyn, NY, USA"
+  },
+  "College Point": {
+    "lat": 40.786395,
+    "lng": -73.8389657,
+    "formatted": "College Point, Queens, NY, USA"
+  },
+  "Columbia St Waterfront District": {
+    "lat": 40.6873691,
+    "lng": -74.0021019,
+    "formatted": "Columbia Street Waterfront District, Brooklyn, NY, USA"
+  },
+  "Concourse": {
+    "lat": 40.8316761,
+    "lng": -73.9227554,
+    "formatted": "Concourse, Bronx, NY, USA"
+  },
+  "Coney Island": {
+    "lat": 40.5767499,
+    "lng": -73.9837187,
+    "formatted": "Coney Island, Brooklyn, NY, USA"
+  },
+  "Corona": {
+    "lat": 40.7449859,
+    "lng": -73.8642613,
+    "formatted": "Corona, Queens, NY, USA"
+  },
+  "Crotona Park East": {
+    "lat": 40.8365344,
+    "lng": -73.8933509,
+    "formatted": "Crotona Park East, Bronx, NY 10460, USA"
+  },
+  "Crown Heights": {
+    "lat": 40.6694022,
+    "lng": -73.9422324,
+    "formatted": "Crown Heights, Brooklyn, NY, USA"
+  },
+  "Cypress Hills": {
+    "lat": 40.6836873,
+    "lng": -73.87963309999999,
+    "formatted": "Cypress Hills, Brooklyn, NY, USA"
+  },
+  "Ditmars-Steinway": {
+    "lat": 40.77796350000001,
+    "lng": -73.9084659,
+    "formatted": "Ditmars Steinway, Queens, NY, USA"
+  },
+  "Ditmas Park": {
+    "lat": 40.6414876,
+    "lng": -73.9593998,
+    "formatted": "Flatbush, Brooklyn, NY, USA"
+  },
+  "Downtown Brooklyn": {
+    "lat": 40.6960679,
+    "lng": -73.9845407,
+    "formatted": "Downtown Brooklyn, Brooklyn, NY, USA"
+  },
+  "DUMBO": {
+    "lat": 40.7033164,
+    "lng": -73.9881451,
+    "formatted": "Dumbo, Brooklyn, NY 11201, USA"
+  },
+  "Dyker Heights": {
+    "lat": 40.6167679,
+    "lng": -74.0183,
+    "formatted": "Dyker Heights, Brooklyn, NY, USA"
+  },
+  "East Flatbush": {
+    "lat": 40.6481656,
+    "lng": -73.9299899,
+    "formatted": "East Flatbush, Brooklyn, NY, USA"
+  },
+  "East Flushing": {
+    "lat": 40.7540534,
+    "lng": -73.8086418,
+    "formatted": "East Flushing, Queens, NY, USA"
+  },
+  "East Harlem": {
+    "lat": 40.7957399,
+    "lng": -73.93892129999999,
+    "formatted": "East Harlem, New York, NY, USA"
+  },
+  "East New York": {
+    "lat": 40.6590529,
+    "lng": -73.8759245,
+    "formatted": "East New York, Brooklyn, NY, USA"
+  },
+  "East Tremont": {
+    "lat": 40.8453781,
+    "lng": -73.8909693,
+    "formatted": "East Tremont, Bronx, NY 10457, USA"
+  },
+  "East Village": {
+    "lat": 40.7264773,
+    "lng": -73.98153370000001,
+    "formatted": "East Village, New York, NY, USA"
+  },
+  "East Williamsburg": {
+    "lat": 40.7141953,
+    "lng": -73.9316461,
+    "formatted": "East Williamsburg, Brooklyn, NY, USA"
+  },
+  "Edgewater": {
+    "lat": 40.82899870000001,
+    "lng": -73.97221139999999,
+    "formatted": "Edgewater, NJ, USA"
+  },
+  "Elmhurst": {
+    "lat": 40.73940350000001,
+    "lng": -73.8779431,
+    "formatted": "Elmhurst, Queens, NY, USA"
+  },
+  "Farragut": {
+    "lat": 40.698809,
+    "lng": -73.9718745,
+    "formatted": "Farragut St, Brooklyn, NY 11205, USA"
+  },
+  "Far Rockaway": {
+    "lat": 40.5998931,
+    "lng": -73.74484369999999,
+    "formatted": "Far Rockaway, Queens, NY, USA"
+  },
+  "Financial District": {
+    "lat": 40.7077143,
+    "lng": -74.00827869999999,
+    "formatted": "Financial District, New York, NY, USA"
+  },
+  "Flatbush": {
+    "lat": 40.6414876,
+    "lng": -73.9593998,
+    "formatted": "Flatbush, Brooklyn, NY, USA"
+  },
+  "Flatiron": {
+    "lat": 40.740083,
+    "lng": -73.9903489,
+    "formatted": "Flatiron District, New York, NY, USA"
+  },
+  "Flushing": {
+    "lat": 40.7647238,
+    "lng": -73.8306716,
+    "formatted": "Flushing, Queens, NY, USA"
+  },
+  "Fordham": {
+    "lat": 40.8592667,
+    "lng": -73.8984694,
+    "formatted": "Fordham, Bronx, NY 10458, USA"
+  },
+  "Forest Hills": {
+    "lat": 40.718106,
+    "lng": -73.8448469,
+    "formatted": "Forest Hills, Queens, NY, USA"
+  },
+  "Fort George": {
+    "lat": 40.8582679,
+    "lng": -73.9318299,
+    "formatted": "Fort George, New York, NY, USA"
+  },
+  "Fort Greene": {
+    "lat": 40.6920638,
+    "lng": -73.97418739999999,
+    "formatted": "Fort Greene, Brooklyn, NY, USA"
+  },
+  "Fort Hamilton": {
+    "lat": 40.6094454,
+    "lng": -74.02854339999999,
+    "formatted": "Fort Hamilton, Brooklyn, NY, USA"
+  },
+  "Fort Lee": {
+    "lat": 40.8521052,
+    "lng": -73.9723174,
+    "formatted": "Fort Lee, NJ 07024, USA"
+  },
+  "Fresh Meadows": {
+    "lat": 40.7335179,
+    "lng": -73.7801447,
+    "formatted": "Fresh Meadows, Queens, NY, USA"
+  },
+  "Fulton/Seaport": {
+    "lat": 40.7066096,
+    "lng": -74.0022565,
+    "formatted": "Fulton St, New York, NY, USA"
+  },
+  "Glendale": {
+    "lat": 40.7016662,
+    "lng": -73.8842219,
+    "formatted": "Glendale, Queens, NY, USA"
+  },
+  "Gowanus": {
+    "lat": 40.6751161,
+    "lng": -73.9879753,
+    "formatted": "Gowanus, Brooklyn, NY, USA"
+  },
+  "Gramercy Park": {
+    "lat": 40.7367783,
+    "lng": -73.9844722,
+    "formatted": "Gramercy Park, New York, NY, USA"
+  },
+  "Gravesend": {
+    "lat": 40.5968007,
+    "lng": -73.9749909,
+    "formatted": "Gravesend, Brooklyn, NY, USA"
+  },
+  "Greenpoint": {
+    "lat": 40.7304701,
+    "lng": -73.95150319999999,
+    "formatted": "Greenpoint, Brooklyn, NY, USA"
+  },
+  "Greenwich Village": {
+    "lat": 40.7335719,
+    "lng": -74.0027418,
+    "formatted": "Greenwich Village, New York, NY, USA"
+  },
+  "Greenwood": {
+    "lat": 40.6574401,
+    "lng": -73.9975063,
+    "formatted": "Greenwood Heights, Brooklyn, NY, USA"
+  },
+  "Guttenberg": {
+    "lat": 40.7955592,
+    "lng": -74.011313,
+    "formatted": "Guttenberg, NJ 07093, USA"
+  },
+  "Hamilton Heights": {
+    "lat": 40.8252793,
+    "lng": -73.94761390000001,
+    "formatted": "Hamilton Heights, New York, NY, USA"
+  },
+  "Hell's Kitchen": {
+    "lat": 40.7637581,
+    "lng": -73.9918181,
+    "formatted": "Hell's Kitchen, New York, NY, USA"
+  },
+  "Historic Downtown": {
+    "lat": 40.7219658,
+    "lng": -74.0512734,
+    "formatted": "Historic Downtown, Jersey City, NJ, USA"
+  },
+  "Hoboken": {
+    "lat": 40.7371004,
+    "lng": -74.03130469999999,
+    "formatted": "Hoboken, NJ, USA"
+  },
+  "Homecrest": {
+    "lat": 40.6004787,
+    "lng": -73.9565551,
+    "formatted": "Homecrest, Brooklyn, NY, USA"
+  },
+  "Hudson Heights": {
+    "lat": 40.8534973,
+    "lng": -73.9374517,
+    "formatted": "Hudson Heights, New York, NY, USA"
+  },
+  "Hudson Square": {
+    "lat": 40.7266108,
+    "lng": -74.0074328,
+    "formatted": "Hudson Square, New York, NY, USA"
+  },
+  "Hudson Yards": {
+    "lat": 40.754247,
+    "lng": -74.0022078,
+    "formatted": "Hudson Yards, New York, NY 10001, USA"
+  },
+  "Hunters Point": {
+    "lat": 40.7485587,
+    "lng": -73.94964639999999,
+    "formatted": "Hunters Point, Queens, NY, USA"
+  },
+  "Inwood": {
+    "lat": 40.8677145,
+    "lng": -73.9212019,
+    "formatted": "Inwood, New York, NY, USA"
+  },
+  "Jackson Heights": {
+    "lat": 40.7556818,
+    "lng": -73.8830701,
+    "formatted": "Jackson Heights, Queens, NY, USA"
+  },
+  "Jamaica": {
+    "lat": 40.7037439,
+    "lng": -73.7991953,
+    "formatted": "Jamaica, Queens, NY, USA"
+  },
+  "Jamaica Estates": {
+    "lat": 40.7179512,
+    "lng": -73.783822,
+    "formatted": "Jamaica Estates, Queens, NY, USA"
+  },
+  "Jamaica Hills": {
+    "lat": 40.7135548,
+    "lng": -73.796488,
+    "formatted": "Jamaica Hills, Queens, NY 11432, USA"
+  },
+  "Jersey City": {
+    "lat": 40.7195342,
+    "lng": -74.0430133,
+    "formatted": "Jersey City, NJ, USA"
+  },
+  "Journal Square": {
+    "lat": 40.7345715,
+    "lng": -74.0631544,
+    "formatted": "Journal Square, Jersey City, NJ, USA"
+  },
+  "Kearny": {
+    "lat": 40.77080309999999,
+    "lng": -74.1450825,
+    "formatted": "Kearny, NJ, USA"
+  },
+  "Kensington": {
+    "lat": 40.63852019999999,
+    "lng": -73.97318729999999,
+    "formatted": "Kensington, Brooklyn, NY, USA"
+  },
+  "Kew Gardens": {
+    "lat": 40.705695,
+    "lng": -73.8272029,
+    "formatted": "Kew Gardens, Queens, NY, USA"
+  },
+  "Kew Gardens Hills": {
+    "lat": 40.7246203,
+    "lng": -73.8207637,
+    "formatted": "Kew Gardens Hills, Queens, NY, USA"
+  },
+  "Kingsbridge Heights": {
+    "lat": 40.8711235,
+    "lng": -73.8976328,
+    "formatted": "Kingsbridge Heights, Bronx, NY, USA"
+  },
+  "Kips Bay": {
+    "lat": 40.74232920000001,
+    "lng": -73.9800645,
+    "formatted": "Kips Bay, New York, NY, USA"
+  },
+  "Lenox Hill": {
+    "lat": 40.7662315,
+    "lng": -73.9602312,
+    "formatted": "Lenox Hill, New York, NY, USA"
+  },
+  "Lincoln Square": {
+    "lat": 40.7741769,
+    "lng": -73.98491179999999,
+    "formatted": "Lincoln Square, New York, NY, USA"
+  },
+  "Little Italy": {
+    "lat": 40.7191413,
+    "lng": -73.9973273,
+    "formatted": "Little Italy, New York, NY 10013, USA"
+  },
+  "Long Island City": {
+    "lat": 40.744679,
+    "lng": -73.9485424,
+    "formatted": "Long Island City, Queens, NY, USA"
+  },
+  "Lower East Side": {
+    "lat": 40.715033,
+    "lng": -73.9842724,
+    "formatted": "Lower East Side, New York, NY, USA"
+  },
+  "Madison": {
+    "lat": 40.60688529999999,
+    "lng": -73.947958,
+    "formatted": "Madison, Brooklyn, NY 11229, USA"
+  },
+  "Manhattan Valley": {
+    "lat": 40.7966989,
+    "lng": -73.9684247,
+    "formatted": "Manhattan Valley, New York, NY, USA"
+  },
+  "Manhattanville": {
+    "lat": 40.8169443,
+    "lng": -73.9558333,
+    "formatted": "Manhattanville, New York, NY 10027, USA"
+  },
+  "Marble Hill": {
+    "lat": 40.8761173,
+    "lng": -73.9102628,
+    "formatted": "Marble Hill, New York, NY, USA"
+  },
+  "Maspeth": {
+    "lat": 40.7294018,
+    "lng": -73.9065883,
+    "formatted": "Maspeth, Queens, NY, USA"
+  },
+  "McGinley Square": {
+    "lat": 40.7241223,
+    "lng": -74.06966729999999,
+    "formatted": "McGinley Square, Jersey City, NJ, USA"
+  },
+  "Melrose": {
+    "lat": 40.824545,
+    "lng": -73.9104143,
+    "formatted": "Melrose, Bronx, NY 10451, USA"
+  },
+  "Middle Village": {
+    "lat": 40.717372,
+    "lng": -73.87425,
+    "formatted": "Middle Village, Queens, NY, USA"
+  },
+  "Midtown": {
+    "lat": 40.7549309,
+    "lng": -73.9840195,
+    "formatted": "Midtown Manhattan, New York, NY, USA"
+  },
+  "Midtown South": {
+    "lat": 40.7521795,
+    "lng": -73.9875438,
+    "formatted": "Midtown South, New York, NY, USA"
+  },
+  "Midwood": {
+    "lat": 40.6204388,
+    "lng": -73.95997779999999,
+    "formatted": "Midwood, Brooklyn, NY, USA"
+  },
+  "Morningside Heights": {
+    "lat": 40.8105443,
+    "lng": -73.9620581,
+    "formatted": "Morningside Heights, New York, NY, USA"
+  },
+  "Mott Haven": {
+    "lat": 40.8091068,
+    "lng": -73.9228881,
+    "formatted": "Mott Haven, Bronx, NY, USA"
+  },
+  "Murray Hill": {
+    "lat": 40.7478792,
+    "lng": -73.9756567,
+    "formatted": "Murray Hill, New York, NY, USA"
+  },
+  "Newport": {
+    "lat": 43.1859025,
+    "lng": -75.01432439999999,
+    "formatted": "Newport, NY 13416, USA"
+  },
+  "Noho": {
+    "lat": 40.7286587,
+    "lng": -73.9925526,
+    "formatted": "NoHo, New York, NY, USA"
+  },
+  "Nolita": {
+    "lat": 40.7230413,
+    "lng": -73.99486069999999,
+    "formatted": "Nolita, New York, NY, USA"
+  },
+  "NoMad": {
+    "lat": 40.7446072,
+    "lng": -73.9874105,
+    "formatted": "NoMad, New York, NY, USA"
+  },
+  "North Bergen": {
+    "lat": 40.7848778,
+    "lng": -74.0332048,
+    "formatted": "North Bergen, NJ, USA"
+  },
+  "North New York": {
+    "lat": 40.7432847,
+    "lng": -73.8549518,
+    "formatted": "Queens, NY, USA"
+  },
+  "Oakland Gardens": {
+    "lat": 40.7408584,
+    "lng": -73.758241,
+    "formatted": "Oakland Gardens, Queens, NY 11364, USA"
+  },
+  "Ocean Hill": {
+    "lat": 40.6782737,
+    "lng": -73.9108212,
+    "formatted": "Ocean Hill, Brooklyn, NY, USA"
+  },
+  "Park Slope": {
+    "lat": 40.6710672,
+    "lng": -73.98142279999999,
+    "formatted": "Park Slope, Brooklyn, NY, USA"
+  },
+  "Paulus Hook": {
+    "lat": 40.7153353,
+    "lng": -74.03809079999999,
+    "formatted": "Paulus Hook, Jersey City, NJ 07302, USA"
+  },
+  "Prospect Heights": {
+    "lat": 40.6774196,
+    "lng": -73.9668408,
+    "formatted": "Prospect Heights, Brooklyn, NY, USA"
+  },
+  "Prospect Lefferts Gardens": {
+    "lat": 40.6592355,
+    "lng": -73.9533895,
+    "formatted": "Prospect Lefferts Gardens, Brooklyn, NY, USA"
+  },
+  "Prospect Park South": {
+    "lat": 40.6457741,
+    "lng": -73.96610609999999,
+    "formatted": "Prospect Park South, Brooklyn, NY, USA"
+  },
+  "Queens Village": {
+    "lat": 40.7156628,
+    "lng": -73.7419017,
+    "formatted": "Queens Village, Queens, NY, USA"
+  },
+  "Red Hook": {
+    "lat": 40.6733676,
+    "lng": -74.00831889999999,
+    "formatted": "Red Hook, Brooklyn, NY, USA"
+  },
+  "Rego Park": {
+    "lat": 40.72557219999999,
+    "lng": -73.8624893,
+    "formatted": "Rego Park, Queens, NY, USA"
+  },
+  "Richmond Hill": {
+    "lat": 40.6999853,
+    "lng": -73.8310309,
+    "formatted": "Richmond Hill, Queens, NY, USA"
+  },
+  "Ridgewood": {
+    "lat": 40.7043986,
+    "lng": -73.9018292,
+    "formatted": "Ridgewood, Queens, NY, USA"
+  },
+  "Riverdale": {
+    "lat": 40.89961830000001,
+    "lng": -73.9088276,
+    "formatted": "Riverdale, Bronx, NY, USA"
+  },
+  "Roosevelt Island": {
+    "lat": 40.7621302,
+    "lng": -73.9499426,
+    "formatted": "Roosevelt Island, New York, NY, USA"
+  },
+  "Saint George": {
+    "lat": 40.6427017,
+    "lng": -74.0799469,
+    "formatted": "St. George, Staten Island, NY 10301, USA"
+  },
+  "Secaucus": {
+    "lat": 40.7879996,
+    "lng": -74.0545497,
+    "formatted": "Secaucus, NJ, USA"
+  },
+  "Sheepshead Bay": {
+    "lat": 40.5953955,
+    "lng": -73.94575379999999,
+    "formatted": "Sheepshead Bay, Brooklyn, NY, USA"
+  },
+  "Soho": {
+    "lat": 40.7245908,
+    "lng": -74.00191740000001,
+    "formatted": "SoHo, New York, NY, USA"
+  },
+  "Soundview": {
+    "lat": 40.8247728,
+    "lng": -73.8695889,
+    "formatted": "Soundview, Bronx, NY, USA"
+  },
+  "South Harlem": {
+    "lat": 40.8032156,
+    "lng": -73.95245349999999,
+    "formatted": "South Harlem, New York, NY, USA"
+  },
+  "Spuyten Duyvil": {
+    "lat": 40.88116369999999,
+    "lng": -73.9154069,
+    "formatted": "Spuyten Duyvil, Bronx, NY 10463, USA"
+  },
+  "Stuyvesant Heights": {
+    "lat": 40.6824166,
+    "lng": -73.9319933,
+    "formatted": "Stuyvesant Heights, Brooklyn, NY, USA"
+  },
+  "Stuyvesant Town/PCV": {
+    "lat": 40.7316903,
+    "lng": -73.9778494,
+    "formatted": "Stuyvesant Town-Peter Cooper Village, New York, NY, USA"
+  },
+  "Sunnyside": {
+    "lat": 40.7432759,
+    "lng": -73.9196324,
+    "formatted": "Sunnyside, Queens, NY, USA"
+  },
+  "Sunset Park": {
+    "lat": 40.6526345,
+    "lng": -74.0091872,
+    "formatted": "Sunset Park, Brooklyn, NY, USA"
+  },
+  "Sutton Place": {
+    "lat": 40.7694468,
+    "lng": -73.9518618,
+    "formatted": "York Ave, New York, NY, USA"
+  },
+  "The Heights": {
+    "lat": 40.8450594,
+    "lng": -73.9348648,
+    "formatted": "203 Audubon Ave, New York, NY 10033, USA"
+  },
+  "The Rockaways": {
+    "lat": 40.592658,
+    "lng": -73.7977928,
+    "formatted": "Rockaway Peninsula, Queens, NY, USA"
+  },
+  "Throgs Neck": {
+    "lat": 40.81678309999999,
+    "lng": -73.8091202,
+    "formatted": "Throggs Neck, Bronx, NY 10465, USA"
+  },
+  "Tribeca": {
+    "lat": 40.7162692,
+    "lng": -74.0086323,
+    "formatted": "Tribeca, New York, NY, USA"
+  },
+  "Turtle Bay": {
+    "lat": 40.7571432,
+    "lng": -73.9718815,
+    "formatted": "Midtown East, New York, NY, USA"
+  },
+  "Two Bridges": {
+    "lat": 40.7107469,
+    "lng": -73.99696,
+    "formatted": "Two Bridges, New York, NY, USA"
+  },
+  "Union City": {
+    "lat": 40.7744557,
+    "lng": -74.0312075,
+    "formatted": "Union City, NJ, USA"
+  },
+  "University Heights": {
+    "lat": 40.8574661,
+    "lng": -73.90965,
+    "formatted": "University Heights, Bronx, NY, USA"
+  },
+  "Upper East Side": {
+    "lat": 40.7735649,
+    "lng": -73.9565551,
+    "formatted": "Upper East Side, New York, NY, USA"
+  },
+  "Upper West Side": {
+    "lat": 40.7870106,
+    "lng": -73.9753676,
+    "formatted": "Upper West Side, New York, NY, USA"
+  },
+  "Vinegar Hill": {
+    "lat": 40.70371859999999,
+    "lng": -73.98226830000002,
+    "formatted": "Vinegar Hill, Brooklyn, NY 11201, USA"
+  },
+  "Washington Heights": {
+    "lat": 40.8417082,
+    "lng": -73.9393554,
+    "formatted": "Washington Heights, New York, NY, USA"
+  },
+  "Waterfront": {
+    "lat": 40.7218549,
+    "lng": -74.03638289999999,
+    "formatted": "The Waterfront, Jersey City, NJ, USA"
+  },
+  "Weehawken": {
+    "lat": 40.7714596,
+    "lng": -74.0192872,
+    "formatted": "Weehawken Township, NJ 07086, USA"
+  },
+  "Weeksville": {
+    "lat": 40.6738462,
+    "lng": -73.9250996,
+    "formatted": "Weeksville, Brooklyn, NY 11213, USA"
+  },
+  "West Chelsea": {
+    "lat": 40.74627,
+    "lng": -73.992409,
+    "formatted": "135 W 27th St #1, New York, NY 10001, USA"
+  },
+  "West Harlem": {
+    "lat": 40.8189374,
+    "lng": -73.9522075,
+    "formatted": "West Harlem, New York, NY, USA"
+  },
+  "West New York": {
+    "lat": 40.7889063,
+    "lng": -74.01618119999999,
+    "formatted": "West New York, NJ 07093, USA"
+  },
+  "West Side": {
+    "lat": 40.7870106,
+    "lng": -73.9753676,
+    "formatted": "Upper West Side, New York, NY, USA"
+  },
+  "West Village": {
+    "lat": 40.73468,
+    "lng": -74.0047554,
+    "formatted": "West Village, New York, NY, USA"
+  },
+  "Williamsburg": {
+    "lat": 40.7081156,
+    "lng": -73.9570696,
+    "formatted": "Williamsburg, Brooklyn, NY, USA"
+  },
+  "Windsor Terrace": {
+    "lat": 40.6539346,
+    "lng": -73.9756567,
+    "formatted": "Windsor Terrace, Brooklyn, NY, USA"
+  },
+  "Wingate": {
+    "lat": 40.7096939,
+    "lng": -73.5281451,
+    "formatted": "Wingate Dr, East Meadow, NY 11554, USA"
+  },
+  "Woodhaven": {
+    "lat": 40.6901366,
+    "lng": -73.8566087,
+    "formatted": "Woodhaven, Queens, NY, USA"
+  },
+  "Woodside": {
+    "lat": 40.7532704,
+    "lng": -73.9068858,
+    "formatted": "Woodside, Queens, NY, USA"
+  },
+  "Yorkville": {
+    "lat": 40.7762231,
+    "lng": -73.94920789999999,
+    "formatted": "Yorkville, New York, NY, USA"
+  }
+}

@@ -1,0 +1,2567 @@
+{
+  "marketStats": {
+    "total_active": 17412,
+    "median_rent": 3550,
+    "avg_price_change": -157
+  },
+  "bedroomBreakdown": [
+    {
+      "bedroom_count": 0,
+      "median_rent": 3100,
+      "listing_count": "2873"
+    },
+    {
+      "bedroom_count": 1,
+      "median_rent": 3427,
+      "listing_count": "6991"
+    },
+    {
+      "bedroom_count": 2,
+      "median_rent": 3995,
+      "listing_count": "5359"
+    },
+    {
+      "bedroom_count": 3,
+      "median_rent": 4000,
+      "listing_count": "1816"
+    }
+  ],
+  "topNeighborhoods": [
+    {
+      "area_name": "Williamsburg",
+      "listing_count": "683",
+      "median_rent": 4600
+    },
+    {
+      "area_name": "Bushwick",
+      "listing_count": "655",
+      "median_rent": 3439
+    },
+    {
+      "area_name": "Flatbush",
+      "listing_count": "528",
+      "median_rent": 2975
+    },
+    {
+      "area_name": "Astoria",
+      "listing_count": "523",
+      "median_rent": 2995
+    },
+    {
+      "area_name": "Hell's Kitchen",
+      "listing_count": "472",
+      "median_rent": 4495
+    },
+    {
+      "area_name": "Crown Heights",
+      "listing_count": "414",
+      "median_rent": 3500
+    },
+    {
+      "area_name": "Upper West Side",
+      "listing_count": "388",
+      "median_rent": 4564
+    },
+    {
+      "area_name": "East Village",
+      "listing_count": "378",
+      "median_rent": 4738
+    },
+    {
+      "area_name": "Stuyvesant Heights",
+      "listing_count": "367",
+      "median_rent": 3150
+    },
+    {
+      "area_name": "Yorkville",
+      "listing_count": "358",
+      "median_rent": 4138
+    },
+    {
+      "area_name": "Hunters Point",
+      "listing_count": "355",
+      "median_rent": 4500
+    },
+    {
+      "area_name": "Bedford-Stuyvesant",
+      "listing_count": "313",
+      "median_rent": 3300
+    },
+    {
+      "area_name": "Downtown Brooklyn",
+      "listing_count": "310",
+      "median_rent": 4759
+    },
+    {
+      "area_name": "Lenox Hill",
+      "listing_count": "310",
+      "median_rent": 3898
+    },
+    {
+      "area_name": "Greenpoint",
+      "listing_count": "293",
+      "median_rent": 4726
+    },
+    {
+      "area_name": "Financial District",
+      "listing_count": "261",
+      "median_rent": 4595
+    },
+    {
+      "area_name": "Murray Hill",
+      "listing_count": "248",
+      "median_rent": 4450
+    },
+    {
+      "area_name": "West Village",
+      "listing_count": "234",
+      "median_rent": 5295
+    },
+    {
+      "area_name": "Chelsea",
+      "listing_count": "229",
+      "median_rent": 5195
+    },
+    {
+      "area_name": "Lincoln Square",
+      "listing_count": "202",
+      "median_rent": 5364
+    }
+  ],
+  "monthlyTrends": [
+    {
+      "month": "2025-08-01T00:00:00.000Z",
+      "median_rent": 3800,
+      "listing_count": "24228"
+    },
+    {
+      "month": "2025-09-01T00:00:00.000Z",
+      "median_rent": 3700,
+      "listing_count": "22444"
+    },
+    {
+      "month": "2025-10-01T00:00:00.000Z",
+      "median_rent": 3650,
+      "listing_count": "16066"
+    },
+    {
+      "month": "2025-11-01T00:00:00.000Z",
+      "median_rent": 3500,
+      "listing_count": "11070"
+    },
+    {
+      "month": "2025-12-01T00:00:00.000Z",
+      "median_rent": 3500,
+      "listing_count": "15346"
+    },
+    {
+      "month": "2026-01-01T00:00:00.000Z",
+      "median_rent": 3550,
+      "listing_count": "17412"
+    }
+  ],
+  "monthlyTrendsWithBedrooms": {
+    "Fri Aug 01 2025 00:00:00 GMT+0000 (Coordinated Universal Time)": {
+      "1": {
+        "median_rent": 3500,
+        "listing_count": 8509
+      },
+      "2": {
+        "median_rent": 4200,
+        "listing_count": 7907
+      },
+      "3": {
+        "median_rent": 4600,
+        "listing_count": 3080
+      }
+    },
+    "Mon Sep 01 2025 00:00:00 GMT+0000 (Coordinated Universal Time)": {
+      "1": {
+        "median_rent": 3450,
+        "listing_count": 8342
+      },
+      "2": {
+        "median_rent": 4100,
+        "listing_count": 7209
+      },
+      "3": {
+        "median_rent": 4300,
+        "listing_count": 2690
+      }
+    },
+    "Wed Oct 01 2025 00:00:00 GMT+0000 (Coordinated Universal Time)": {
+      "1": {
+        "median_rent": 3475,
+        "listing_count": 6016
+      },
+      "2": {
+        "median_rent": 4000,
+        "listing_count": 5118
+      },
+      "3": {
+        "median_rent": 4200,
+        "listing_count": 1880
+      }
+    },
+    "Sat Nov 01 2025 00:00:00 GMT+0000 (Coordinated Universal Time)": {
+      "1": {
+        "median_rent": 3295,
+        "listing_count": 4185
+      },
+      "2": {
+        "median_rent": 3800,
+        "listing_count": 3520
+      },
+      "3": {
+        "median_rent": 3995,
+        "listing_count": 1276
+      }
+    },
+    "Mon Dec 01 2025 00:00:00 GMT+0000 (Coordinated Universal Time)": {
+      "1": {
+        "median_rent": 3300,
+        "listing_count": 5977
+      },
+      "2": {
+        "median_rent": 3850,
+        "listing_count": 4682
+      },
+      "3": {
+        "median_rent": 3950,
+        "listing_count": 1765
+      }
+    },
+    "Thu Jan 01 2026 00:00:00 GMT+0000 (Coordinated Universal Time)": {
+      "1": {
+        "median_rent": 3427,
+        "listing_count": 6991
+      },
+      "2": {
+        "median_rent": 3995,
+        "listing_count": 5359
+      },
+      "3": {
+        "median_rent": 4000,
+        "listing_count": 1816
+      }
+    }
+  },
+  "neighborhoodChanges": [
+    {
+      "area_name": "Saint George",
+      "jan_median": 1775,
+      "dec_median": 3785,
+      "price_change": -2010,
+      "pct_change": -53
+    },
+    {
+      "area_name": "Hudson Square",
+      "jan_median": 6950,
+      "dec_median": 7995,
+      "price_change": -1045,
+      "pct_change": -13
+    },
+    {
+      "area_name": "Red Hook",
+      "jan_median": 4200,
+      "dec_median": 4875,
+      "price_change": -675,
+      "pct_change": -14
+    },
+    {
+      "area_name": "Lenox Hill",
+      "jan_median": 3898,
+      "dec_median": 4450,
+      "price_change": -552,
+      "pct_change": -12
+    },
+    {
+      "area_name": "Wingate",
+      "jan_median": 2875,
+      "dec_median": 3395,
+      "price_change": -520,
+      "pct_change": -15
+    },
+    {
+      "area_name": "Cobble Hill",
+      "jan_median": 3580,
+      "dec_median": 4100,
+      "price_change": -520,
+      "pct_change": -13
+    },
+    {
+      "area_name": "Sheepshead Bay",
+      "jan_median": 2692,
+      "dec_median": 3195,
+      "price_change": -503,
+      "pct_change": -16
+    },
+    {
+      "area_name": "Riverdale",
+      "jan_median": 2800,
+      "dec_median": 3272,
+      "price_change": -472,
+      "pct_change": -14
+    },
+    {
+      "area_name": "Ridgewood",
+      "jan_median": 3000,
+      "dec_median": 3400,
+      "price_change": -400,
+      "pct_change": -12
+    },
+    {
+      "area_name": "Midtown South",
+      "jan_median": 4802,
+      "dec_median": 5200,
+      "price_change": -398,
+      "pct_change": -8
+    },
+    {
+      "area_name": "Tribeca",
+      "jan_median": 6956,
+      "dec_median": 7298,
+      "price_change": -342,
+      "pct_change": -5
+    },
+    {
+      "area_name": "West Chelsea",
+      "jan_median": 5395,
+      "dec_median": 5728,
+      "price_change": -333,
+      "pct_change": -6
+    },
+    {
+      "area_name": "North Bergen",
+      "jan_median": 2482,
+      "dec_median": 2800,
+      "price_change": -318,
+      "pct_change": -11
+    },
+    {
+      "area_name": "Sunset Park",
+      "jan_median": 2500,
+      "dec_median": 2800,
+      "price_change": -300,
+      "pct_change": -11
+    },
+    {
+      "area_name": "Upper East Side",
+      "jan_median": 3950,
+      "dec_median": 4250,
+      "price_change": -300,
+      "pct_change": -7
+    },
+    {
+      "area_name": "Kew Gardens Hills",
+      "jan_median": 2500,
+      "dec_median": 2770,
+      "price_change": -270,
+      "pct_change": -10
+    },
+    {
+      "area_name": "Flushing",
+      "jan_median": 2541,
+      "dec_median": 2800,
+      "price_change": -259,
+      "pct_change": -9
+    },
+    {
+      "area_name": "NoMad",
+      "jan_median": 5475,
+      "dec_median": 5732,
+      "price_change": -257,
+      "pct_change": -4
+    },
+    {
+      "area_name": "Kew Gardens",
+      "jan_median": 2499,
+      "dec_median": 2750,
+      "price_change": -251,
+      "pct_change": -9
+    },
+    {
+      "area_name": "Boerum Hill",
+      "jan_median": 4550,
+      "dec_median": 4800,
+      "price_change": -250,
+      "pct_change": -5
+    },
+    {
+      "area_name": "Greenwich Village",
+      "jan_median": 5500,
+      "dec_median": 5700,
+      "price_change": -200,
+      "pct_change": -4
+    },
+    {
+      "area_name": "Rego Park",
+      "jan_median": 2600,
+      "dec_median": 2800,
+      "price_change": -200,
+      "pct_change": -7
+    },
+    {
+      "area_name": "Far Rockaway",
+      "jan_median": 2299,
+      "dec_median": 2482,
+      "price_change": -183,
+      "pct_change": -7
+    },
+    {
+      "area_name": "Greenwood",
+      "jan_median": 3225,
+      "dec_median": 3391,
+      "price_change": -166,
+      "pct_change": -5
+    },
+    {
+      "area_name": "Roosevelt Island",
+      "jan_median": 4000,
+      "dec_median": 4155,
+      "price_change": -155,
+      "pct_change": -4
+    },
+    {
+      "area_name": "Concourse",
+      "jan_median": 2000,
+      "dec_median": 2150,
+      "price_change": -150,
+      "pct_change": -7
+    },
+    {
+      "area_name": "Fort Greene",
+      "jan_median": 4246,
+      "dec_median": 4395,
+      "price_change": -149,
+      "pct_change": -3
+    },
+    {
+      "area_name": "Union City",
+      "jan_median": 2500,
+      "dec_median": 2625,
+      "price_change": -125,
+      "pct_change": -5
+    },
+    {
+      "area_name": "Financial District",
+      "jan_median": 4595,
+      "dec_median": 4716,
+      "price_change": -121,
+      "pct_change": -3
+    },
+    {
+      "area_name": "South Harlem",
+      "jan_median": 3450,
+      "dec_median": 3568,
+      "price_change": -118,
+      "pct_change": -3
+    },
+    {
+      "area_name": "Bedford-Stuyvesant",
+      "jan_median": 3300,
+      "dec_median": 3400,
+      "price_change": -100,
+      "pct_change": -3
+    },
+    {
+      "area_name": "Manhattanville",
+      "jan_median": 3345,
+      "dec_median": 3445,
+      "price_change": -100,
+      "pct_change": -3
+    },
+    {
+      "area_name": "Cypress Hills",
+      "jan_median": 2892,
+      "dec_median": 2975,
+      "price_change": -83,
+      "pct_change": -3
+    },
+    {
+      "area_name": "Weehawken",
+      "jan_median": 3420,
+      "dec_median": 3500,
+      "price_change": -80,
+      "pct_change": -2
+    },
+    {
+      "area_name": "East New York",
+      "jan_median": 2699,
+      "dec_median": 2762,
+      "price_change": -63,
+      "pct_change": -2
+    },
+    {
+      "area_name": "Fulton/Seaport",
+      "jan_median": 5037,
+      "dec_median": 5094,
+      "price_change": -57,
+      "pct_change": -1
+    },
+    {
+      "area_name": "Briarwood",
+      "jan_median": 1995,
+      "dec_median": 2050,
+      "price_change": -55,
+      "pct_change": -3
+    },
+    {
+      "area_name": "East Harlem",
+      "jan_median": 2795,
+      "dec_median": 2850,
+      "price_change": -55,
+      "pct_change": -2
+    },
+    {
+      "area_name": "Midwood",
+      "jan_median": 2495,
+      "dec_median": 2550,
+      "price_change": -55,
+      "pct_change": -2
+    },
+    {
+      "area_name": "Bergen/Lafayette",
+      "jan_median": 2350,
+      "dec_median": 2400,
+      "price_change": -50,
+      "pct_change": -2
+    },
+    {
+      "area_name": "Lower East Side",
+      "jan_median": 4300,
+      "dec_median": 4350,
+      "price_change": -50,
+      "pct_change": -1
+    },
+    {
+      "area_name": "Guttenberg",
+      "jan_median": 2500,
+      "dec_median": 2525,
+      "price_change": -25,
+      "pct_change": -1
+    },
+    {
+      "area_name": "Bayside",
+      "jan_median": 2875,
+      "dec_median": 2900,
+      "price_change": -25,
+      "pct_change": -1
+    },
+    {
+      "area_name": "Stuyvesant Town/PCV",
+      "jan_median": 5322,
+      "dec_median": 5336,
+      "price_change": -14,
+      "pct_change": 0
+    },
+    {
+      "area_name": "University Heights",
+      "jan_median": 2094,
+      "dec_median": 2099,
+      "price_change": -5,
+      "pct_change": 0
+    },
+    {
+      "area_name": "Prospect Lefferts Gardens",
+      "jan_median": 2995,
+      "dec_median": 2997,
+      "price_change": -2,
+      "pct_change": 0
+    },
+    {
+      "area_name": "Crown Heights",
+      "jan_median": 3500,
+      "dec_median": 3500,
+      "price_change": 0,
+      "pct_change": 0
+    },
+    {
+      "area_name": "Bath Beach",
+      "jan_median": 1995,
+      "dec_median": 1995,
+      "price_change": 0,
+      "pct_change": 0
+    },
+    {
+      "area_name": "Nolita",
+      "jan_median": 4995,
+      "dec_median": 4995,
+      "price_change": 0,
+      "pct_change": 0
+    },
+    {
+      "area_name": "McGinley Square",
+      "jan_median": 2400,
+      "dec_median": 2400,
+      "price_change": 0,
+      "pct_change": 0
+    },
+    {
+      "area_name": "Washington Heights",
+      "jan_median": 2800,
+      "dec_median": 2800,
+      "price_change": 0,
+      "pct_change": 0
+    },
+    {
+      "area_name": "North New York",
+      "jan_median": 3300,
+      "dec_median": 3300,
+      "price_change": 0,
+      "pct_change": 0
+    },
+    {
+      "area_name": "Hell's Kitchen",
+      "jan_median": 4495,
+      "dec_median": 4495,
+      "price_change": 0,
+      "pct_change": 0
+    },
+    {
+      "area_name": "Ditmars-Steinway",
+      "jan_median": 3000,
+      "dec_median": 3000,
+      "price_change": 0,
+      "pct_change": 0
+    },
+    {
+      "area_name": "Sunnyside",
+      "jan_median": 2795,
+      "dec_median": 2795,
+      "price_change": 0,
+      "pct_change": 0
+    },
+    {
+      "area_name": "Flatiron",
+      "jan_median": 5998,
+      "dec_median": 5995,
+      "price_change": 3,
+      "pct_change": 0
+    },
+    {
+      "area_name": "Astoria",
+      "jan_median": 2995,
+      "dec_median": 2985,
+      "price_change": 10,
+      "pct_change": 0
+    },
+    {
+      "area_name": "Coney Island",
+      "jan_median": 3262,
+      "dec_median": 3250,
+      "price_change": 12,
+      "pct_change": 0
+    },
+    {
+      "area_name": "Murray Hill",
+      "jan_median": 4450,
+      "dec_median": 4434,
+      "price_change": 16,
+      "pct_change": 0
+    },
+    {
+      "area_name": "Williamsburg",
+      "jan_median": 4600,
+      "dec_median": 4581,
+      "price_change": 19,
+      "pct_change": 0
+    },
+    {
+      "area_name": "Hunters Point",
+      "jan_median": 4500,
+      "dec_median": 4480,
+      "price_change": 20,
+      "pct_change": 0
+    },
+    {
+      "area_name": "Fort Hamilton",
+      "jan_median": 2550,
+      "dec_median": 2530,
+      "price_change": 20,
+      "pct_change": 1
+    },
+    {
+      "area_name": "Mott Haven",
+      "jan_median": 2825,
+      "dec_median": 2800,
+      "price_change": 25,
+      "pct_change": 1
+    },
+    {
+      "area_name": "Gramercy Park",
+      "jan_median": 4725,
+      "dec_median": 4700,
+      "price_change": 25,
+      "pct_change": 1
+    },
+    {
+      "area_name": "Brownsville",
+      "jan_median": 2625,
+      "dec_median": 2600,
+      "price_change": 25,
+      "pct_change": 1
+    },
+    {
+      "area_name": "Elmhurst",
+      "jan_median": 2325,
+      "dec_median": 2300,
+      "price_change": 25,
+      "pct_change": 1
+    },
+    {
+      "area_name": "Stuyvesant Heights",
+      "jan_median": 3150,
+      "dec_median": 3112,
+      "price_change": 38,
+      "pct_change": 1
+    },
+    {
+      "area_name": "Bushwick",
+      "jan_median": 3439,
+      "dec_median": 3400,
+      "price_change": 39,
+      "pct_change": 1
+    },
+    {
+      "area_name": "Bayonne",
+      "jan_median": 2300,
+      "dec_median": 2260,
+      "price_change": 40,
+      "pct_change": 2
+    },
+    {
+      "area_name": "Fort George",
+      "jan_median": 2595,
+      "dec_median": 2550,
+      "price_change": 45,
+      "pct_change": 2
+    },
+    {
+      "area_name": "Ocean Hill",
+      "jan_median": 2895,
+      "dec_median": 2850,
+      "price_change": 45,
+      "pct_change": 2
+    },
+    {
+      "area_name": "Bay Ridge",
+      "jan_median": 2548,
+      "dec_median": 2500,
+      "price_change": 48,
+      "pct_change": 2
+    },
+    {
+      "area_name": "East Flatbush",
+      "jan_median": 2750,
+      "dec_median": 2700,
+      "price_change": 50,
+      "pct_change": 2
+    },
+    {
+      "area_name": "Maspeth",
+      "jan_median": 2500,
+      "dec_median": 2450,
+      "price_change": 50,
+      "pct_change": 2
+    },
+    {
+      "area_name": "West Side",
+      "jan_median": 2250,
+      "dec_median": 2200,
+      "price_change": 50,
+      "pct_change": 2
+    },
+    {
+      "area_name": "Hudson Heights",
+      "jan_median": 2950,
+      "dec_median": 2895,
+      "price_change": 55,
+      "pct_change": 2
+    },
+    {
+      "area_name": "Lincoln Square",
+      "jan_median": 5364,
+      "dec_median": 5300,
+      "price_change": 64,
+      "pct_change": 1
+    },
+    {
+      "area_name": "Hamilton Heights",
+      "jan_median": 2800,
+      "dec_median": 2732,
+      "price_change": 68,
+      "pct_change": 2
+    },
+    {
+      "area_name": "Upper West Side",
+      "jan_median": 4564,
+      "dec_median": 4495,
+      "price_change": 69,
+      "pct_change": 2
+    },
+    {
+      "area_name": "Weeksville",
+      "jan_median": 2970,
+      "dec_median": 2899,
+      "price_change": 71,
+      "pct_change": 2
+    },
+    {
+      "area_name": "Newport",
+      "jan_median": 4343,
+      "dec_median": 4270,
+      "price_change": 73,
+      "pct_change": 2
+    },
+    {
+      "area_name": "Gravesend",
+      "jan_median": 2724,
+      "dec_median": 2650,
+      "price_change": 74,
+      "pct_change": 3
+    },
+    {
+      "area_name": "Jamaica",
+      "jan_median": 2895,
+      "dec_median": 2820,
+      "price_change": 75,
+      "pct_change": 3
+    },
+    {
+      "area_name": "Inwood",
+      "jan_median": 2850,
+      "dec_median": 2775,
+      "price_change": 75,
+      "pct_change": 3
+    },
+    {
+      "area_name": "Kensington",
+      "jan_median": 2575,
+      "dec_median": 2500,
+      "price_change": 75,
+      "pct_change": 3
+    },
+    {
+      "area_name": "Journal Square",
+      "jan_median": 2591,
+      "dec_median": 2514,
+      "price_change": 77,
+      "pct_change": 3
+    },
+    {
+      "area_name": "Battery Park City",
+      "jan_median": 5043,
+      "dec_median": 4960,
+      "price_change": 83,
+      "pct_change": 2
+    },
+    {
+      "area_name": "Flatbush",
+      "jan_median": 2975,
+      "dec_median": 2885,
+      "price_change": 90,
+      "pct_change": 3
+    },
+    {
+      "area_name": "Waterfront",
+      "jan_median": 3886,
+      "dec_median": 3790,
+      "price_change": 96,
+      "pct_change": 3
+    },
+    {
+      "area_name": "Chinatown",
+      "jan_median": 3598,
+      "dec_median": 3498,
+      "price_change": 100,
+      "pct_change": 3
+    },
+    {
+      "area_name": "Hoboken",
+      "jan_median": 3700,
+      "dec_median": 3600,
+      "price_change": 100,
+      "pct_change": 3
+    },
+    {
+      "area_name": "The Heights",
+      "jan_median": 2600,
+      "dec_median": 2500,
+      "price_change": 100,
+      "pct_change": 4
+    },
+    {
+      "area_name": "Jackson Heights",
+      "jan_median": 2500,
+      "dec_median": 2400,
+      "price_change": 100,
+      "pct_change": 4
+    },
+    {
+      "area_name": "Brighton Beach",
+      "jan_median": 2608,
+      "dec_median": 2500,
+      "price_change": 108,
+      "pct_change": 4
+    },
+    {
+      "area_name": "Historic Downtown",
+      "jan_median": 3531,
+      "dec_median": 3405,
+      "price_change": 126,
+      "pct_change": 4
+    },
+    {
+      "area_name": "Central Harlem",
+      "jan_median": 2900,
+      "dec_median": 2750,
+      "price_change": 150,
+      "pct_change": 5
+    },
+    {
+      "area_name": "Jersey City",
+      "jan_median": 2350,
+      "dec_median": 2200,
+      "price_change": 150,
+      "pct_change": 7
+    },
+    {
+      "area_name": "Oakland Gardens",
+      "jan_median": 2950,
+      "dec_median": 2800,
+      "price_change": 150,
+      "pct_change": 5
+    },
+    {
+      "area_name": "Turtle Bay",
+      "jan_median": 4617,
+      "dec_median": 4462,
+      "price_change": 155,
+      "pct_change": 3
+    },
+    {
+      "area_name": "Forest Hills",
+      "jan_median": 2750,
+      "dec_median": 2590,
+      "price_change": 160,
+      "pct_change": 6
+    },
+    {
+      "area_name": "Ditmas Park",
+      "jan_median": 2702,
+      "dec_median": 2538,
+      "price_change": 164,
+      "pct_change": 6
+    },
+    {
+      "area_name": "Sutton Place",
+      "jan_median": 4495,
+      "dec_median": 4325,
+      "price_change": 170,
+      "pct_change": 4
+    },
+    {
+      "area_name": "West New York",
+      "jan_median": 2850,
+      "dec_median": 2677,
+      "price_change": 173,
+      "pct_change": 6
+    },
+    {
+      "area_name": "Fort Lee",
+      "jan_median": 2675,
+      "dec_median": 2500,
+      "price_change": 175,
+      "pct_change": 7
+    },
+    {
+      "area_name": "Windsor Terrace",
+      "jan_median": 3275,
+      "dec_median": 3100,
+      "price_change": 175,
+      "pct_change": 6
+    },
+    {
+      "area_name": "Prospect Heights",
+      "jan_median": 4495,
+      "dec_median": 4300,
+      "price_change": 195,
+      "pct_change": 5
+    },
+    {
+      "area_name": "West Village",
+      "jan_median": 5295,
+      "dec_median": 5100,
+      "price_change": 195,
+      "pct_change": 4
+    },
+    {
+      "area_name": "Chelsea",
+      "jan_median": 5195,
+      "dec_median": 5000,
+      "price_change": 195,
+      "pct_change": 4
+    },
+    {
+      "area_name": "Park Slope",
+      "jan_median": 4200,
+      "dec_median": 4000,
+      "price_change": 200,
+      "pct_change": 5
+    },
+    {
+      "area_name": "Homecrest",
+      "jan_median": 2663,
+      "dec_median": 2450,
+      "price_change": 213,
+      "pct_change": 9
+    },
+    {
+      "area_name": "Clinton Hill",
+      "jan_median": 3850,
+      "dec_median": 3635,
+      "price_change": 215,
+      "pct_change": 6
+    },
+    {
+      "area_name": "Bedford Park",
+      "jan_median": 2050,
+      "dec_median": 1825,
+      "price_change": 225,
+      "pct_change": 12
+    },
+    {
+      "area_name": "Woodside",
+      "jan_median": 3122,
+      "dec_median": 2889,
+      "price_change": 233,
+      "pct_change": 8
+    },
+    {
+      "area_name": "Spuyten Duyvil",
+      "jan_median": 3125,
+      "dec_median": 2874,
+      "price_change": 251,
+      "pct_change": 9
+    },
+    {
+      "area_name": "Brooklyn Heights",
+      "jan_median": 4502,
+      "dec_median": 4250,
+      "price_change": 252,
+      "pct_change": 6
+    },
+    {
+      "area_name": "Jamaica Estates",
+      "jan_median": 2450,
+      "dec_median": 2195,
+      "price_change": 255,
+      "pct_change": 12
+    },
+    {
+      "area_name": "Greenpoint",
+      "jan_median": 4726,
+      "dec_median": 4469,
+      "price_change": 257,
+      "pct_change": 6
+    },
+    {
+      "area_name": "Corona",
+      "jan_median": 2972,
+      "dec_median": 2700,
+      "price_change": 272,
+      "pct_change": 10
+    },
+    {
+      "area_name": "Yorkville",
+      "jan_median": 4138,
+      "dec_median": 3850,
+      "price_change": 288,
+      "pct_change": 7
+    },
+    {
+      "area_name": "Little Italy",
+      "jan_median": 4394,
+      "dec_median": 4098,
+      "price_change": 296,
+      "pct_change": 7
+    },
+    {
+      "area_name": "Hudson Yards",
+      "jan_median": 5247,
+      "dec_median": 4950,
+      "price_change": 297,
+      "pct_change": 6
+    },
+    {
+      "area_name": "Bensonhurst",
+      "jan_median": 2400,
+      "dec_median": 2098,
+      "price_change": 302,
+      "pct_change": 14
+    },
+    {
+      "area_name": "Prospect Park South",
+      "jan_median": 3195,
+      "dec_median": 2891,
+      "price_change": 304,
+      "pct_change": 11
+    },
+    {
+      "area_name": "Fresh Meadows",
+      "jan_median": 2700,
+      "dec_median": 2375,
+      "price_change": 325,
+      "pct_change": 14
+    },
+    {
+      "area_name": "East Village",
+      "jan_median": 4738,
+      "dec_median": 4395,
+      "price_change": 343,
+      "pct_change": 8
+    },
+    {
+      "area_name": "Gowanus",
+      "jan_median": 4995,
+      "dec_median": 4650,
+      "price_change": 345,
+      "pct_change": 7
+    },
+    {
+      "area_name": "Long Island City",
+      "jan_median": 3900,
+      "dec_median": 3550,
+      "price_change": 350,
+      "pct_change": 10
+    },
+    {
+      "area_name": "Downtown Brooklyn",
+      "jan_median": 4759,
+      "dec_median": 4400,
+      "price_change": 359,
+      "pct_change": 8
+    },
+    {
+      "area_name": "Carnegie Hill",
+      "jan_median": 4500,
+      "dec_median": 4125,
+      "price_change": 375,
+      "pct_change": 9
+    },
+    {
+      "area_name": "Manhattan Valley",
+      "jan_median": 3750,
+      "dec_median": 3350,
+      "price_change": 400,
+      "pct_change": 12
+    },
+    {
+      "area_name": "Farragut",
+      "jan_median": 3000,
+      "dec_median": 2600,
+      "price_change": 400,
+      "pct_change": 15
+    },
+    {
+      "area_name": "Two Bridges",
+      "jan_median": 4100,
+      "dec_median": 3688,
+      "price_change": 412,
+      "pct_change": 11
+    },
+    {
+      "area_name": "Paulus Hook",
+      "jan_median": 3670,
+      "dec_median": 3253,
+      "price_change": 417,
+      "pct_change": 13
+    },
+    {
+      "area_name": "Carroll Gardens",
+      "jan_median": 4999,
+      "dec_median": 4559,
+      "price_change": 440,
+      "pct_change": 10
+    },
+    {
+      "area_name": "Kips Bay",
+      "jan_median": 4445,
+      "dec_median": 3995,
+      "price_change": 450,
+      "pct_change": 11
+    },
+    {
+      "area_name": "DUMBO",
+      "jan_median": 5250,
+      "dec_median": 4798,
+      "price_change": 452,
+      "pct_change": 9
+    },
+    {
+      "area_name": "Cliffside Park",
+      "jan_median": 2900,
+      "dec_median": 2400,
+      "price_change": 500,
+      "pct_change": 21
+    },
+    {
+      "area_name": "Morningside Heights",
+      "jan_median": 4500,
+      "dec_median": 4000,
+      "price_change": 500,
+      "pct_change": 12
+    },
+    {
+      "area_name": "Midtown",
+      "jan_median": 5064,
+      "dec_median": 4550,
+      "price_change": 514,
+      "pct_change": 11
+    },
+    {
+      "area_name": "East Williamsburg",
+      "jan_median": 4600,
+      "dec_median": 4020,
+      "price_change": 580,
+      "pct_change": 14
+    },
+    {
+      "area_name": "Soho",
+      "jan_median": 5872,
+      "dec_median": 5248,
+      "price_change": 624,
+      "pct_change": 12
+    },
+    {
+      "area_name": "Glendale",
+      "jan_median": 3200,
+      "dec_median": 2550,
+      "price_change": 650,
+      "pct_change": 25
+    },
+    {
+      "area_name": "Secaucus",
+      "jan_median": 3200,
+      "dec_median": 2525,
+      "price_change": 675,
+      "pct_change": 27
+    },
+    {
+      "area_name": "Vinegar Hill",
+      "jan_median": 6743,
+      "dec_median": 5429,
+      "price_change": 1314,
+      "pct_change": 24
+    },
+    {
+      "area_name": "Noho",
+      "jan_median": 8075,
+      "dec_median": 5800,
+      "price_change": 2275,
+      "pct_change": 39
+    }
+  ],
+  "exampleListings": [
+    {
+      "area_name": "Annadale",
+      "price": 1700,
+      "bedroom_count": 1,
+      "full_bathroom_count": 1,
+      "living_area_size": 700,
+      "lead_media_photo": "116872754dd3c5723afff4ca9809eca9",
+      "url_path": "/building/49-shotwell-avenue-staten_island/1",
+      "street": "49 Shotwell Avenue"
+    },
+    {
+      "area_name": "Arverne",
+      "price": 3450,
+      "bedroom_count": 4,
+      "full_bathroom_count": 1,
+      "living_area_size": 1200,
+      "lead_media_photo": "7f7e75608d71984a79e68f4d8562d42d",
+      "url_path": "/building/69_17-burchell-avenue-arverne/1",
+      "street": "69-17 Burchell Avenue"
+    },
+    {
+      "area_name": "Astoria",
+      "price": 2695,
+      "bedroom_count": 1,
+      "full_bathroom_count": 1,
+      "living_area_size": 0,
+      "lead_media_photo": "8f0e9c57aa5fbc1ad23b55a1be859ed7",
+      "url_path": "/building/31_37-30-street-astoria/3b",
+      "street": "31-37 30th Street"
+    },
+    {
+      "area_name": "Auburndale",
+      "price": 4500,
+      "bedroom_count": 3,
+      "full_bathroom_count": 2,
+      "living_area_size": 0,
+      "lead_media_photo": "e58d89014a398219cc422a70e752470c",
+      "url_path": "/rental/4955404",
+      "street": "199-34 34th Avenue"
+    },
+    {
+      "area_name": "Bath Beach",
+      "price": 1775,
+      "bedroom_count": 0,
+      "full_bathroom_count": 1,
+      "living_area_size": 0,
+      "lead_media_photo": "0e7d919e89b1f68bc83732e201ae79f4",
+      "url_path": "/building/8633-21-avenue-brooklyn/5j",
+      "street": "8635 21st Avenue"
+    }
+  ],
+  "geoData": [
+    {
+      "area_name": "Williamsburg",
+      "listing_count": "683",
+      "median_rent": 4600,
+      "lat": 40.71200744948756,
+      "lng": -73.95381740263544
+    },
+    {
+      "area_name": "Bushwick",
+      "listing_count": "655",
+      "median_rent": 3439,
+      "lat": 40.69613296488549,
+      "lng": -73.9211274351145
+    },
+    {
+      "area_name": "Flatbush",
+      "listing_count": "528",
+      "median_rent": 2975,
+      "lat": 40.64753203409091,
+      "lng": -73.9525036534091
+    },
+    {
+      "area_name": "Astoria",
+      "listing_count": "523",
+      "median_rent": 2995,
+      "lat": 40.76697535755258,
+      "lng": -73.92428040152964
+    },
+    {
+      "area_name": "Hell's Kitchen",
+      "listing_count": "472",
+      "median_rent": 4495,
+      "lat": 40.763984993644065,
+      "lng": -73.99209959957628
+    },
+    {
+      "area_name": "Crown Heights",
+      "listing_count": "414",
+      "median_rent": 3500,
+      "lat": 40.673634531400964,
+      "lng": -73.94710614009662
+    },
+    {
+      "area_name": "Upper West Side",
+      "listing_count": "388",
+      "median_rent": 4564,
+      "lat": 40.788872920103096,
+      "lng": -73.97371350515463
+    },
+    {
+      "area_name": "East Village",
+      "listing_count": "378",
+      "median_rent": 4738,
+      "lat": 40.72710958994709,
+      "lng": -73.98391241269842
+    },
+    {
+      "area_name": "Stuyvesant Heights",
+      "listing_count": "367",
+      "median_rent": 3150,
+      "lat": 40.68691395367848,
+      "lng": -73.9306559373297
+    },
+    {
+      "area_name": "Yorkville",
+      "listing_count": "358",
+      "median_rent": 4138,
+      "lat": 40.77793631564246,
+      "lng": -73.9495652206704
+    },
+    {
+      "area_name": "Hunters Point",
+      "listing_count": "355",
+      "median_rent": 4500,
+      "lat": 40.74645925070423,
+      "lng": -73.94699954647888
+    },
+    {
+      "area_name": "Bedford-Stuyvesant",
+      "listing_count": "313",
+      "median_rent": 3300,
+      "lat": 40.68629957188499,
+      "lng": -73.95020442172525
+    },
+    {
+      "area_name": "Lenox Hill",
+      "listing_count": "310",
+      "median_rent": 3898,
+      "lat": 40.767189290322584,
+      "lng": -73.95780547419355
+    },
+    {
+      "area_name": "Downtown Brooklyn",
+      "listing_count": "310",
+      "median_rent": 4759,
+      "lat": 40.69194342903226,
+      "lng": -73.98532707096774
+    },
+    {
+      "area_name": "Greenpoint",
+      "listing_count": "293",
+      "median_rent": 4726,
+      "lat": 40.73132706484642,
+      "lng": -73.95473786348123
+    },
+    {
+      "area_name": "Financial District",
+      "listing_count": "261",
+      "median_rent": 4595,
+      "lat": 40.70631642911877,
+      "lng": -74.00921957854406
+    },
+    {
+      "area_name": "Murray Hill",
+      "listing_count": "248",
+      "median_rent": 4450,
+      "lat": 40.74846333467742,
+      "lng": -73.96224603225807
+    },
+    {
+      "area_name": "West Village",
+      "listing_count": "234",
+      "median_rent": 5295,
+      "lat": 40.73452179059829,
+      "lng": -74.00442855555555
+    },
+    {
+      "area_name": "Chelsea",
+      "listing_count": "229",
+      "median_rent": 5195,
+      "lat": 40.744016371179036,
+      "lng": -73.99682295633188
+    },
+    {
+      "area_name": "Lincoln Square",
+      "listing_count": "202",
+      "median_rent": 5364,
+      "lat": 40.7752094009901,
+      "lng": -73.98488168811882
+    },
+    {
+      "area_name": "Waterfront",
+      "listing_count": "202",
+      "median_rent": 3886,
+      "lat": 40.72023943069307,
+      "lng": -74.03926349504951
+    },
+    {
+      "area_name": "Kips Bay",
+      "listing_count": "194",
+      "median_rent": 4445,
+      "lat": 40.741764670103095,
+      "lng": -73.97923655154639
+    },
+    {
+      "area_name": "Ditmars-Steinway",
+      "listing_count": "182",
+      "median_rent": 3000,
+      "lat": 40.774514357142856,
+      "lng": -73.90883596703297
+    },
+    {
+      "area_name": "Central Harlem",
+      "listing_count": "179",
+      "median_rent": 2900,
+      "lat": 40.81468286592179,
+      "lng": -73.94270849162011
+    },
+    {
+      "area_name": "Fort Greene",
+      "listing_count": "176",
+      "median_rent": 4246,
+      "lat": 40.68834436363636,
+      "lng": -73.97627079545454
+    },
+    {
+      "area_name": "Lower East Side",
+      "listing_count": "174",
+      "median_rent": 4300,
+      "lat": 40.719855718390804,
+      "lng": -73.9876698045977
+    },
+    {
+      "area_name": "Park Slope",
+      "listing_count": "171",
+      "median_rent": 4200,
+      "lat": 40.67164207602339,
+      "lng": -73.98091497660819
+    },
+    {
+      "area_name": "Midtown",
+      "listing_count": "168",
+      "median_rent": 5064,
+      "lat": 40.76178144642857,
+      "lng": -73.98096407142857
+    },
+    {
+      "area_name": "Midwood",
+      "listing_count": "166",
+      "median_rent": 2495,
+      "lat": 40.619432042168675,
+      "lng": -73.95953556626506
+    },
+    {
+      "area_name": "East Harlem",
+      "listing_count": "166",
+      "median_rent": 2795,
+      "lat": 40.794826819277105,
+      "lng": -73.93996390963855
+    },
+    {
+      "area_name": "Hoboken",
+      "listing_count": "164",
+      "median_rent": 3700,
+      "lat": 40.74468428658537,
+      "lng": -74.033569
+    },
+    {
+      "area_name": "South Harlem",
+      "listing_count": "161",
+      "median_rent": 3450,
+      "lat": 40.804702944099375,
+      "lng": -73.95128502484472
+    },
+    {
+      "area_name": "Hamilton Heights",
+      "listing_count": "157",
+      "median_rent": 2800,
+      "lat": 40.825081573248404,
+      "lng": -73.94928571974522
+    },
+    {
+      "area_name": "Gowanus",
+      "listing_count": "156",
+      "median_rent": 4995,
+      "lat": 40.677043955128205,
+      "lng": -73.98770426923078
+    },
+    {
+      "area_name": "East Flatbush",
+      "listing_count": "156",
+      "median_rent": 2750,
+      "lat": 40.64180896153846,
+      "lng": -73.94056849358974
+    },
+    {
+      "area_name": "Mott Haven",
+      "listing_count": "155",
+      "median_rent": 2825,
+      "lat": 40.80944738064516,
+      "lng": -73.92982429032259
+    },
+    {
+      "area_name": "Turtle Bay",
+      "listing_count": "152",
+      "median_rent": 4617,
+      "lat": 40.7533955,
+      "lng": -73.97022156578947
+    },
+    {
+      "area_name": "Ridgewood",
+      "listing_count": "147",
+      "median_rent": 3000,
+      "lat": 40.704154156462586,
+      "lng": -73.90578409523809
+    },
+    {
+      "area_name": "Long Island City",
+      "listing_count": "143",
+      "median_rent": 3900,
+      "lat": 40.752354090909094,
+      "lng": -73.93532113986014
+    },
+    {
+      "area_name": "Boerum Hill",
+      "listing_count": "135",
+      "median_rent": 4550,
+      "lat": 40.68328961481482,
+      "lng": -73.9836347925926
+    },
+    {
+      "area_name": "Washington Heights",
+      "listing_count": "134",
+      "median_rent": 2800,
+      "lat": 40.83966403731343,
+      "lng": -73.94047217910448
+    },
+    {
+      "area_name": "West New York",
+      "listing_count": "134",
+      "median_rent": 2850,
+      "lat": 40.78572260447761,
+      "lng": -74.00920747014925
+    },
+    {
+      "area_name": "Hudson Yards",
+      "listing_count": "130",
+      "median_rent": 5247,
+      "lat": 40.75559706153846,
+      "lng": -73.99650826923077
+    },
+    {
+      "area_name": "Sutton Place",
+      "listing_count": "128",
+      "median_rent": 4495,
+      "lat": 40.75847075,
+      "lng": -73.9650618359375
+    },
+    {
+      "area_name": "Bayonne",
+      "listing_count": "127",
+      "median_rent": 2300,
+      "lat": 40.66435927559055,
+      "lng": -74.11951322047244
+    },
+    {
+      "area_name": "Greenwich Village",
+      "listing_count": "127",
+      "median_rent": 5500,
+      "lat": 40.732830976377954,
+      "lng": -73.99708733070867
+    },
+    {
+      "area_name": "McGinley Square",
+      "listing_count": "127",
+      "median_rent": 2400,
+      "lat": 40.72490176377953,
+      "lng": -74.06826147244095
+    },
+    {
+      "area_name": "North New York",
+      "listing_count": "123",
+      "median_rent": 3300,
+      "lat": 40.80450375609756,
+      "lng": -73.92049315447154
+    },
+    {
+      "area_name": "Historic Downtown",
+      "listing_count": "119",
+      "median_rent": 3531,
+      "lat": 40.725977991596636,
+      "lng": -74.04678572268908
+    },
+    {
+      "area_name": "Greenwood",
+      "listing_count": "118",
+      "median_rent": 3225,
+      "lat": 40.660080584745764,
+      "lng": -73.9968489661017
+    },
+    {
+      "area_name": "Sunnyside",
+      "listing_count": "117",
+      "median_rent": 2795,
+      "lat": 40.74252731623932,
+      "lng": -73.9215413931624
+    },
+    {
+      "area_name": "Prospect Lefferts Gardens",
+      "listing_count": "116",
+      "median_rent": 2995,
+      "lat": 40.658167931034484,
+      "lng": -73.9528685775862
+    },
+    {
+      "area_name": "Forest Hills",
+      "listing_count": "115",
+      "median_rent": 2750,
+      "lat": 40.7219428,
+      "lng": -73.84532008695652
+    },
+    {
+      "area_name": "Jersey City",
+      "listing_count": "114",
+      "median_rent": 2350,
+      "lat": 40.70347699122807,
+      "lng": -74.09061003508772
+    },
+    {
+      "area_name": "Journal Square",
+      "listing_count": "106",
+      "median_rent": 2591,
+      "lat": 40.73226858490566,
+      "lng": -74.06271078301887
+    },
+    {
+      "area_name": "The Heights",
+      "listing_count": "105",
+      "median_rent": 2600,
+      "lat": 40.745036733333336,
+      "lng": -74.0503413047619
+    },
+    {
+      "area_name": "Clinton Hill",
+      "listing_count": "104",
+      "median_rent": 3850,
+      "lat": 40.68698100961539,
+      "lng": -73.96423625
+    },
+    {
+      "area_name": "Gramercy Park",
+      "listing_count": "102",
+      "median_rent": 4725,
+      "lat": 40.73574719607843,
+      "lng": -73.98335866666666
+    },
+    {
+      "area_name": "Midtown South",
+      "listing_count": "97",
+      "median_rent": 4802,
+      "lat": 40.748979226804124,
+      "lng": -73.98566734020619
+    },
+    {
+      "area_name": "Inwood",
+      "listing_count": "95",
+      "median_rent": 2850,
+      "lat": 40.86613838947368,
+      "lng": -73.9219417368421
+    },
+    {
+      "area_name": "Weeksville",
+      "listing_count": "94",
+      "median_rent": 2970,
+      "lat": 40.67128695744681,
+      "lng": -73.92997990425532
+    },
+    {
+      "area_name": "Tribeca",
+      "listing_count": "94",
+      "median_rent": 6956,
+      "lat": 40.71630102127659,
+      "lng": -74.0076995319149
+    },
+    {
+      "area_name": "Jamaica",
+      "listing_count": "93",
+      "median_rent": 2895,
+      "lat": 40.70601966666667,
+      "lng": -73.79937306451613
+    },
+    {
+      "area_name": "Bergen/Lafayette",
+      "listing_count": "92",
+      "median_rent": 2350,
+      "lat": 40.71491502173913,
+      "lng": -74.06936038043479
+    },
+    {
+      "area_name": "Ocean Hill",
+      "listing_count": "91",
+      "median_rent": 2895,
+      "lat": 40.67957826373626,
+      "lng": -73.91104753846155
+    },
+    {
+      "area_name": "Kew Gardens",
+      "listing_count": "89",
+      "median_rent": 2499,
+      "lat": 40.70625806741573,
+      "lng": -73.83258352808988
+    },
+    {
+      "area_name": "Fort George",
+      "listing_count": "87",
+      "median_rent": 2595,
+      "lat": 40.85822247126437,
+      "lng": -73.9296218275862
+    },
+    {
+      "area_name": "Rego Park",
+      "listing_count": "86",
+      "median_rent": 2600,
+      "lat": 40.72862661627907,
+      "lng": -73.86043536046512
+    },
+    {
+      "area_name": "Woodside",
+      "listing_count": "86",
+      "median_rent": 3122,
+      "lat": 40.74441730232558,
+      "lng": -73.90627177906977
+    },
+    {
+      "area_name": "West Chelsea",
+      "listing_count": "81",
+      "median_rent": 5395,
+      "lat": 40.74980062962963,
+      "lng": -74.00379685185185
+    },
+    {
+      "area_name": "Elmhurst",
+      "listing_count": "80",
+      "median_rent": 2325,
+      "lat": 40.7404430875,
+      "lng": -73.8784009
+    },
+    {
+      "area_name": "Brooklyn Heights",
+      "listing_count": "78",
+      "median_rent": 4502,
+      "lat": 40.69625619230769,
+      "lng": -73.99437758974359
+    },
+    {
+      "area_name": "Manhattan Valley",
+      "listing_count": "77",
+      "median_rent": 3750,
+      "lat": 40.799333,
+      "lng": -73.9638174935065
+    },
+    {
+      "area_name": "Nolita",
+      "listing_count": "74",
+      "median_rent": 4995,
+      "lat": 40.722433108108106,
+      "lng": -73.99506105405405
+    },
+    {
+      "area_name": "North Bergen",
+      "listing_count": "72",
+      "median_rent": 2482,
+      "lat": 40.79082852777778,
+      "lng": -74.01853076388889
+    },
+    {
+      "area_name": "Fulton/Seaport",
+      "listing_count": "71",
+      "median_rent": 5037,
+      "lat": 40.70939905633803,
+      "lng": -74.00599084507043
+    },
+    {
+      "area_name": "Carnegie Hill",
+      "listing_count": "71",
+      "median_rent": 4500,
+      "lat": 40.78356847887324,
+      "lng": -73.95255288732395
+    },
+    {
+      "area_name": "Paulus Hook",
+      "listing_count": "71",
+      "median_rent": 3670,
+      "lat": 40.71476529577465,
+      "lng": -74.03798050704225
+    },
+    {
+      "area_name": "Newport",
+      "listing_count": "70",
+      "median_rent": 4343,
+      "lat": 40.728615057142854,
+      "lng": -74.03221528571429
+    },
+    {
+      "area_name": "Prospect Heights",
+      "listing_count": "69",
+      "median_rent": 4495,
+      "lat": 40.678570028985504,
+      "lng": -73.96889439130435
+    },
+    {
+      "area_name": "Union City",
+      "listing_count": "67",
+      "median_rent": 2500,
+      "lat": 40.76754468656716,
+      "lng": -74.03136658208955
+    },
+    {
+      "area_name": "Flushing",
+      "listing_count": "66",
+      "median_rent": 2541,
+      "lat": 40.75867131818182,
+      "lng": -73.82712378787879
+    },
+    {
+      "area_name": "Battery Park City",
+      "listing_count": "65",
+      "median_rent": 5043,
+      "lat": 40.711721861538464,
+      "lng": -74.01648815384615
+    },
+    {
+      "area_name": "NoMad",
+      "listing_count": "64",
+      "median_rent": 5475,
+      "lat": 40.744218625,
+      "lng": -73.987912296875
+    },
+    {
+      "area_name": "Bay Ridge",
+      "listing_count": "64",
+      "median_rent": 2548,
+      "lat": 40.630084671875,
+      "lng": -74.026879796875
+    },
+    {
+      "area_name": "Hudson Heights",
+      "listing_count": "61",
+      "median_rent": 2950,
+      "lat": 40.85270473770492,
+      "lng": -73.93769345901639
+    },
+    {
+      "area_name": "Jackson Heights",
+      "listing_count": "61",
+      "median_rent": 2500,
+      "lat": 40.75226270491803,
+      "lng": -73.88558844262295
+    },
+    {
+      "area_name": "Flatiron",
+      "listing_count": "58",
+      "median_rent": 5998,
+      "lat": 40.73917075862069,
+      "lng": -73.9912273275862
+    },
+    {
+      "area_name": "Ditmas Park",
+      "listing_count": "58",
+      "median_rent": 2702,
+      "lat": 40.63694393103448,
+      "lng": -73.96260260344827
+    },
+    {
+      "area_name": "Prospect Park South",
+      "listing_count": "57",
+      "median_rent": 3195,
+      "lat": 40.64819438596491,
+      "lng": -73.96487780701754
+    },
+    {
+      "area_name": "West Side",
+      "listing_count": "57",
+      "median_rent": 2250,
+      "lat": 40.72271989473684,
+      "lng": -74.07917271929824
+    },
+    {
+      "area_name": "East New York",
+      "listing_count": "55",
+      "median_rent": 2699,
+      "lat": 40.67300830909091,
+      "lng": -73.88733441818182
+    },
+    {
+      "area_name": "Carroll Gardens",
+      "listing_count": "55",
+      "median_rent": 4999,
+      "lat": 40.68022758181818,
+      "lng": -73.99770667272728
+    },
+    {
+      "area_name": "Soho",
+      "listing_count": "54",
+      "median_rent": 5872,
+      "lat": 40.724237611111114,
+      "lng": -74.00212659259259
+    },
+    {
+      "area_name": "Sunset Park",
+      "listing_count": "53",
+      "median_rent": 2500,
+      "lat": 40.64668754716981,
+      "lng": -74.00901139622641
+    },
+    {
+      "area_name": "Fort Hamilton",
+      "listing_count": "53",
+      "median_rent": 2550,
+      "lat": 40.618639849056606,
+      "lng": -74.03312786792453
+    },
+    {
+      "area_name": "East Williamsburg",
+      "listing_count": "53",
+      "median_rent": 4600,
+      "lat": 40.71030932075472,
+      "lng": -73.93852896226416
+    },
+    {
+      "area_name": "Kensington",
+      "listing_count": "48",
+      "median_rent": 2575,
+      "lat": 40.638649979166665,
+      "lng": -73.973478875
+    },
+    {
+      "area_name": "Vinegar Hill",
+      "listing_count": "47",
+      "median_rent": 6743,
+      "lat": 40.70191570212766,
+      "lng": -73.98363744680852
+    },
+    {
+      "area_name": "Gravesend",
+      "listing_count": "46",
+      "median_rent": 2724,
+      "lat": 40.597458869565216,
+      "lng": -73.98540404347825
+    },
+    {
+      "area_name": "Wingate",
+      "listing_count": "44",
+      "median_rent": 2875,
+      "lat": 40.6611735,
+      "lng": -73.9431789090909
+    },
+    {
+      "area_name": "Weehawken",
+      "listing_count": "42",
+      "median_rent": 3420,
+      "lat": 40.77108202380953,
+      "lng": -74.01739880952381
+    },
+    {
+      "area_name": "DUMBO",
+      "listing_count": "41",
+      "median_rent": 5250,
+      "lat": 40.702641024390246,
+      "lng": -73.98787178048781
+    },
+    {
+      "area_name": "Morningside Heights",
+      "listing_count": "41",
+      "median_rent": 4500,
+      "lat": 40.808613146341465,
+      "lng": -73.96224268292683
+    },
+    {
+      "area_name": "Maspeth",
+      "listing_count": "41",
+      "median_rent": 2500,
+      "lat": 40.71970970731707,
+      "lng": -73.90253368292683
+    },
+    {
+      "area_name": "Coney Island",
+      "listing_count": "36",
+      "median_rent": 3262,
+      "lat": 40.5761145,
+      "lng": -73.98468691666666
+    },
+    {
+      "area_name": "Briarwood",
+      "listing_count": "34",
+      "median_rent": 1995,
+      "lat": 40.71093155882353,
+      "lng": -73.81691970588236
+    },
+    {
+      "area_name": "Concourse",
+      "listing_count": "32",
+      "median_rent": 2000,
+      "lat": 40.83006425,
+      "lng": -73.9194863125
+    },
+    {
+      "area_name": "Windsor Terrace",
+      "listing_count": "31",
+      "median_rent": 3275,
+      "lat": 40.65299429032258,
+      "lng": -73.97609938709678
+    },
+    {
+      "area_name": "Upper East Side",
+      "listing_count": "29",
+      "median_rent": 3950,
+      "lat": 40.77810420689655,
+      "lng": -73.95738948275861
+    },
+    {
+      "area_name": "Two Bridges",
+      "listing_count": "29",
+      "median_rent": 4100,
+      "lat": 40.71171479310345,
+      "lng": -73.99153482758621
+    },
+    {
+      "area_name": "Stuyvesant Town/PCV",
+      "listing_count": "28",
+      "median_rent": 5322,
+      "lat": 40.73215714285714,
+      "lng": -73.97777142857143
+    },
+    {
+      "area_name": "Noho",
+      "listing_count": "28",
+      "median_rent": 8075,
+      "lat": 40.72687285714286,
+      "lng": -73.99276878571429
+    },
+    {
+      "area_name": "Fresh Meadows",
+      "listing_count": "27",
+      "median_rent": 2700,
+      "lat": 40.7370087037037,
+      "lng": -73.7792475925926
+    },
+    {
+      "area_name": "Brownsville",
+      "listing_count": "26",
+      "median_rent": 2625,
+      "lat": 40.660772461538464,
+      "lng": -73.91683138461538
+    },
+    {
+      "area_name": "Glendale",
+      "listing_count": "26",
+      "median_rent": 3200,
+      "lat": 40.701193153846155,
+      "lng": -73.8862121923077
+    },
+    {
+      "area_name": "Oakland Gardens",
+      "listing_count": "26",
+      "median_rent": 2950,
+      "lat": 40.74522861538462,
+      "lng": -73.7525725
+    },
+    {
+      "area_name": "Homecrest",
+      "listing_count": "24",
+      "median_rent": 2663,
+      "lat": 40.60480470833333,
+      "lng": -73.95287225
+    },
+    {
+      "area_name": "Fort Lee",
+      "listing_count": "24",
+      "median_rent": 2675,
+      "lat": 40.85451079166667,
+      "lng": -73.96992425
+    },
+    {
+      "area_name": "Roosevelt Island",
+      "listing_count": "23",
+      "median_rent": 4000,
+      "lat": 40.76070856521739,
+      "lng": -73.9506604347826
+    },
+    {
+      "area_name": "Cobble Hill",
+      "listing_count": "23",
+      "median_rent": 3580,
+      "lat": 40.687671869565214,
+      "lng": -73.9951287826087
+    },
+    {
+      "area_name": "Kew Gardens Hills",
+      "listing_count": "23",
+      "median_rent": 2500,
+      "lat": 40.72394856521739,
+      "lng": -73.81622295652174
+    },
+    {
+      "area_name": "Manhattanville",
+      "listing_count": "22",
+      "median_rent": 3345,
+      "lat": 40.81866422727273,
+      "lng": -73.95576631818182
+    },
+    {
+      "area_name": "Bensonhurst",
+      "listing_count": "21",
+      "median_rent": 2400,
+      "lat": 40.611789904761906,
+      "lng": -73.99011809523809
+    },
+    {
+      "area_name": "Bath Beach",
+      "listing_count": "21",
+      "median_rent": 1995,
+      "lat": 40.60235757142857,
+      "lng": -74.00361933333333
+    },
+    {
+      "area_name": "Guttenberg",
+      "listing_count": "21",
+      "median_rent": 2500,
+      "lat": 40.792363,
+      "lng": -74.004534
+    },
+    {
+      "area_name": "Brighton Beach",
+      "listing_count": "20",
+      "median_rent": 2608,
+      "lat": 40.5795154,
+      "lng": -73.9605698
+    },
+    {
+      "area_name": "Chinatown",
+      "listing_count": "20",
+      "median_rent": 3598,
+      "lat": 40.71592395,
+      "lng": -73.9953671
+    },
+    {
+      "area_name": "Bayside",
+      "listing_count": "19",
+      "median_rent": 2875,
+      "lat": 40.76181068421052,
+      "lng": -73.77006231578947
+    },
+    {
+      "area_name": "Cliffside Park",
+      "listing_count": "19",
+      "median_rent": 2900,
+      "lat": 40.82115915789473,
+      "lng": -73.98733152631578
+    },
+    {
+      "area_name": "Corona",
+      "listing_count": "18",
+      "median_rent": 2972,
+      "lat": 40.742763555555555,
+      "lng": -73.85744888888888
+    },
+    {
+      "area_name": "Spuyten Duyvil",
+      "listing_count": "18",
+      "median_rent": 3125,
+      "lat": 40.88086833333333,
+      "lng": -73.91571633333334
+    },
+    {
+      "area_name": "Cypress Hills",
+      "listing_count": "18",
+      "median_rent": 2892,
+      "lat": 40.68112077777778,
+      "lng": -73.88711577777778
+    },
+    {
+      "area_name": "Little Italy",
+      "listing_count": "18",
+      "median_rent": 4394,
+      "lat": 40.719262444444446,
+      "lng": -73.9968185
+    },
+    {
+      "area_name": "Central Park South",
+      "listing_count": "17",
+      "median_rent": 6350,
+      "lat": 40.765757529411765,
+      "lng": -73.97733176470588
+    },
+    {
+      "area_name": "Sheepshead Bay",
+      "listing_count": "16",
+      "median_rent": 2692,
+      "lat": 40.5876848125,
+      "lng": -73.9530538125
+    },
+    {
+      "area_name": "Far Rockaway",
+      "listing_count": "15",
+      "median_rent": 2299,
+      "lat": 40.599232666666666,
+      "lng": -73.75539533333334
+    },
+    {
+      "area_name": "Hudson Square",
+      "listing_count": "15",
+      "median_rent": 6950,
+      "lat": 40.726119,
+      "lng": -74.00626486666667
+    },
+    {
+      "area_name": "Red Hook",
+      "listing_count": "15",
+      "median_rent": 4200,
+      "lat": 40.677423,
+      "lng": -74.007474
+    },
+    {
+      "area_name": "Secaucus",
+      "listing_count": "15",
+      "median_rent": 3200,
+      "lat": 40.793917533333335,
+      "lng": -74.06148893333334
+    },
+    {
+      "area_name": "Kingsbridge Heights",
+      "listing_count": "14",
+      "median_rent": 2924,
+      "lat": 40.87557542857143,
+      "lng": -73.89894792857143
+    },
+    {
+      "area_name": "University Heights",
+      "listing_count": "14",
+      "median_rent": 2094,
+      "lat": 40.86222692857143,
+      "lng": -73.90840992857143
+    },
+    {
+      "area_name": "Jamaica Estates",
+      "listing_count": "14",
+      "median_rent": 2450,
+      "lat": 40.7139965,
+      "lng": -73.78732835714285
+    },
+    {
+      "area_name": "Bedford Park",
+      "listing_count": "14",
+      "median_rent": 2050,
+      "lat": 40.87192642857143,
+      "lng": -73.88561214285714
+    },
+    {
+      "area_name": "Farragut",
+      "listing_count": "13",
+      "median_rent": 3000,
+      "lat": 40.63968684615384,
+      "lng": -73.93916538461538
+    },
+    {
+      "area_name": "Canarsie",
+      "listing_count": "13",
+      "median_rent": 2700,
+      "lat": 40.637379230769234,
+      "lng": -73.90186153846153
+    },
+    {
+      "area_name": "Dyker Heights",
+      "listing_count": "12",
+      "median_rent": 2450,
+      "lat": 40.62382541666667,
+      "lng": -74.01112833333333
+    },
+    {
+      "area_name": "Saint George",
+      "listing_count": "12",
+      "median_rent": 1775,
+      "lat": 40.64374516666667,
+      "lng": -74.07890258333333
+    },
+    {
+      "area_name": "Richmond Hill",
+      "listing_count": "12",
+      "median_rent": 1992,
+      "lat": 40.69719083333333,
+      "lng": -73.8376515
+    },
+    {
+      "area_name": "Edgewater",
+      "listing_count": "11",
+      "median_rent": 3600,
+      "lat": 40.82318336363636,
+      "lng": -73.97891772727273
+    },
+    {
+      "area_name": "Beekman",
+      "listing_count": "11",
+      "median_rent": 4818,
+      "lat": 40.75478890909091,
+      "lng": -73.96406636363636
+    },
+    {
+      "area_name": "Riverdale",
+      "listing_count": "10",
+      "median_rent": 4022,
+      "lat": 40.8878125,
+      "lng": -73.910249
+    },
+    {
+      "area_name": "Woodhaven",
+      "listing_count": "10",
+      "median_rent": 2375,
+      "lat": 40.6908027,
+      "lng": -73.8554209
+    },
+    {
+      "area_name": "Belmont",
+      "listing_count": "10",
+      "median_rent": 2250,
+      "lat": 40.855972,
+      "lng": -73.8852845
+    },
+    {
+      "area_name": "Queens Village",
+      "listing_count": "10",
+      "median_rent": 2050,
+      "lat": 40.723071,
+      "lng": -73.75035
+    },
+    {
+      "area_name": "Mapleton",
+      "listing_count": "9",
+      "median_rent": 2200,
+      "lat": 40.61409722222222,
+      "lng": -73.97774377777777
+    },
+    {
+      "area_name": "Pelham Bay",
+      "listing_count": "9",
+      "median_rent": 3200,
+      "lat": 40.855396,
+      "lng": -73.82965
+    },
+    {
+      "area_name": "East Flushing",
+      "listing_count": "8",
+      "median_rent": 2250,
+      "lat": 40.757750875,
+      "lng": -73.796177375
+    },
+    {
+      "area_name": "West Harlem",
+      "listing_count": "8",
+      "median_rent": 3408,
+      "lat": 40.812177625,
+      "lng": -73.952901875
+    },
+    {
+      "area_name": "Fordham",
+      "listing_count": "8",
+      "median_rent": 1990,
+      "lat": 40.86172075,
+      "lng": -73.89684875
+    },
+    {
+      "area_name": "Borough Park",
+      "listing_count": "7",
+      "median_rent": 1950,
+      "lat": 40.63713071428572,
+      "lng": -73.99844
+    },
+    {
+      "area_name": "Norwood",
+      "listing_count": "7",
+      "median_rent": 1900,
+      "lat": 40.87799285714286,
+      "lng": -73.87875
+    },
+    {
+      "area_name": "Marble Hill",
+      "listing_count": "7",
+      "median_rent": 3250,
+      "lat": 40.87563,
+      "lng": -73.91231
+    },
+    {
+      "area_name": "Columbia St Waterfront District",
+      "listing_count": "7",
+      "median_rent": 3600,
+      "lat": 40.68522171428572,
+      "lng": -74.00222271428571
+    },
+    {
+      "area_name": "Woodstock",
+      "listing_count": "6",
+      "median_rent": 1975,
+      "lat": 40.816595,
+      "lng": -73.90327483333333
+    },
+    {
+      "area_name": "College Point",
+      "listing_count": "6",
+      "median_rent": 3350,
+      "lat": 40.7870225,
+      "lng": -73.84087566666666
+    },
+    {
+      "area_name": "Pomonok",
+      "listing_count": "6",
+      "median_rent": 2440,
+      "lat": 40.724084,
+      "lng": -73.80671583333333
+    },
+    {
+      "area_name": "St. Albans",
+      "listing_count": "6",
+      "median_rent": 2999,
+      "lat": 40.694652166666664,
+      "lng": -73.7742275
+    },
+    {
+      "area_name": "Fieldston",
+      "listing_count": "6",
+      "median_rent": 2098,
+      "lat": 40.895475166666664,
+      "lng": -73.89740333333333
+    },
+    {
+      "area_name": "Kearny",
+      "listing_count": "5",
+      "median_rent": 2450,
+      "lat": 40.763841,
+      "lng": -74.144936
+    },
+    {
+      "area_name": "Whitestone",
+      "listing_count": "5",
+      "median_rent": 3100,
+      "lat": 40.7837112,
+      "lng": -73.8168628
+    },
+    {
+      "area_name": "Marine Park",
+      "listing_count": "5",
+      "median_rent": 2900,
+      "lat": 40.6135608,
+      "lng": -73.933152
+    },
+    {
+      "area_name": "Highbridge",
+      "listing_count": "5",
+      "median_rent": 2225,
+      "lat": 40.8335956,
+      "lng": -73.9276088
+    },
+    {
+      "area_name": "Soundview",
+      "listing_count": "5",
+      "median_rent": 2612,
+      "lat": 40.8181484,
+      "lng": -73.869495
+    },
+    {
+      "area_name": "Van Nest",
+      "listing_count": "5",
+      "median_rent": 3195,
+      "lat": 40.8450132,
+      "lng": -73.8668868
+    },
+    {
+      "area_name": "Auburndale",
+      "listing_count": "5",
+      "median_rent": 2750,
+      "lat": 40.7546544,
+      "lng": -73.7815708
+    },
+    {
+      "area_name": "Mt. Hope",
+      "listing_count": "5",
+      "median_rent": 2575,
+      "lat": 40.846524,
+      "lng": -73.90921
+    },
+    {
+      "area_name": "The Rockaways",
+      "listing_count": "5",
+      "median_rent": 2950,
+      "lat": 40.5813348,
+      "lng": -73.8265648
+    }
+  ],
+  "generated_at": "2026-02-22T21:24:06.180Z"
+}

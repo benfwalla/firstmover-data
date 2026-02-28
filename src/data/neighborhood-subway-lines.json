@@ -1,0 +1,966 @@
+{
+  "Astoria": [
+    "N",
+    "W"
+  ],
+  "Bath Beach": [
+    "D"
+  ],
+  "Battery Park City": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "A",
+    "C",
+    "E",
+    "J",
+    "N",
+    "R",
+    "W",
+    "Z"
+  ],
+  "Bayonne": [],
+  "Bay Ridge": [
+    "R"
+  ],
+  "Bayside": [],
+  "Bedford Park": [
+    "4",
+    "B",
+    "D"
+  ],
+  "Bedford-Stuyvesant": [
+    "A",
+    "C",
+    "G"
+  ],
+  "Beekman": [
+    "4",
+    "6",
+    "E",
+    "F"
+  ],
+  "Belmont": [],
+  "Bensonhurst": [
+    "N",
+    "W"
+  ],
+  "Bergen/Lafayette": [],
+  "Boerum Hill": [
+    "2",
+    "3",
+    "4",
+    "5",
+    "A",
+    "B",
+    "C",
+    "D",
+    "F",
+    "G",
+    "N",
+    "Q",
+    "R",
+    "W"
+  ],
+  "Borough Park": [
+    "D"
+  ],
+  "Briarwood": [
+    "E",
+    "F"
+  ],
+  "Brighton Beach": [
+    "B",
+    "Q"
+  ],
+  "Bronxwood": [
+    "2",
+    "5"
+  ],
+  "Brooklyn Heights": [
+    "2",
+    "3",
+    "4",
+    "5",
+    "A",
+    "C",
+    "F",
+    "N",
+    "R",
+    "W"
+  ],
+  "Brownsville": [
+    "2",
+    "3",
+    "4",
+    "5"
+  ],
+  "Bushwick": [
+    "J",
+    "M",
+    "Z"
+  ],
+  "Canarsie": [],
+  "Carnegie Hill": [
+    "4",
+    "5",
+    "6",
+    "N",
+    "Q",
+    "R"
+  ],
+  "Carroll Gardens": [
+    "F",
+    "G"
+  ],
+  "Central Harlem": [
+    "2",
+    "3",
+    "A",
+    "B",
+    "C"
+  ],
+  "Central Park South": [
+    "1",
+    "2",
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "M",
+    "N",
+    "Q",
+    "R",
+    "W"
+  ],
+  "Chelsea": [
+    "1",
+    "2",
+    "3",
+    "A",
+    "C",
+    "E",
+    "F",
+    "L",
+    "M",
+    "N",
+    "Q",
+    "R",
+    "W"
+  ],
+  "Chinatown": [
+    "4",
+    "6",
+    "B",
+    "D",
+    "F",
+    "J",
+    "M",
+    "N",
+    "Q",
+    "R",
+    "W",
+    "Z"
+  ],
+  "City Line": [
+    "A",
+    "C"
+  ],
+  "Cliffside Park": [],
+  "Clinton Hill": [
+    "A",
+    "C",
+    "G"
+  ],
+  "Cobble Hill": [
+    "2",
+    "3",
+    "4",
+    "5",
+    "A",
+    "C",
+    "F",
+    "G"
+  ],
+  "College Point": [],
+  "Columbia St Waterfront District": [
+    "F",
+    "G"
+  ],
+  "Concourse": [
+    "4",
+    "B",
+    "D"
+  ],
+  "Coney Island": [
+    "D",
+    "F",
+    "N",
+    "Q"
+  ],
+  "Corona": [],
+  "Crotona Park East": [
+    "2",
+    "5",
+    "6"
+  ],
+  "Crown Heights": [
+    "2",
+    "3",
+    "4",
+    "5",
+    "A",
+    "C"
+  ],
+  "Cypress Hills": [
+    "A",
+    "C",
+    "J",
+    "Z"
+  ],
+  "Ditmars-Steinway": [
+    "N",
+    "W"
+  ],
+  "Ditmas Park": [
+    "B",
+    "Q"
+  ],
+  "Downtown Brooklyn": [
+    "2",
+    "3",
+    "4",
+    "5",
+    "A",
+    "B",
+    "C",
+    "D",
+    "F",
+    "G",
+    "N",
+    "Q",
+    "R",
+    "W"
+  ],
+  "DUMBO": [
+    "2",
+    "3",
+    "A",
+    "C",
+    "F"
+  ],
+  "Dyker Heights": [],
+  "East Flatbush": [
+    "2",
+    "5"
+  ],
+  "East Flushing": [],
+  "East Harlem": [
+    "4",
+    "6"
+  ],
+  "East New York": [
+    "2",
+    "3",
+    "4",
+    "5",
+    "A",
+    "C"
+  ],
+  "East Tremont": [],
+  "East Village": [
+    "4",
+    "6",
+    "F",
+    "L"
+  ],
+  "East Williamsburg": [
+    "L"
+  ],
+  "Edgewater": [],
+  "Elmhurst": [
+    "7",
+    "E",
+    "F",
+    "M",
+    "R"
+  ],
+  "Farragut": [
+    "2",
+    "5"
+  ],
+  "Far Rockaway": [
+    "A"
+  ],
+  "Financial District": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "A",
+    "C",
+    "E",
+    "J",
+    "N",
+    "R",
+    "W",
+    "Z"
+  ],
+  "Flatbush": [
+    "2",
+    "5"
+  ],
+  "Flatiron": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "F",
+    "L",
+    "M",
+    "N",
+    "Q",
+    "R",
+    "W"
+  ],
+  "Flushing": [
+    "7"
+  ],
+  "Fordham": [
+    "4",
+    "B",
+    "D"
+  ],
+  "Forest Hills": [
+    "E",
+    "F",
+    "M",
+    "R"
+  ],
+  "Fort George": [
+    "1",
+    "A"
+  ],
+  "Fort Greene": [
+    "2",
+    "3",
+    "4",
+    "5",
+    "A",
+    "B",
+    "C",
+    "D",
+    "G",
+    "N",
+    "Q",
+    "R",
+    "W"
+  ],
+  "Fort Hamilton": [
+    "R"
+  ],
+  "Fort Lee": [],
+  "Fresh Meadows": [],
+  "Fulton/Seaport": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "A",
+    "C",
+    "E",
+    "J",
+    "N",
+    "R",
+    "W",
+    "Z"
+  ],
+  "Glendale": [],
+  "Gowanus": [
+    "D",
+    "F",
+    "G",
+    "N",
+    "R",
+    "W"
+  ],
+  "Gramercy Park": [
+    "4",
+    "5",
+    "6",
+    "L",
+    "N",
+    "Q",
+    "R",
+    "W"
+  ],
+  "Gravesend": [
+    "D",
+    "N",
+    "R",
+    "W"
+  ],
+  "Greenpoint": [
+    "G"
+  ],
+  "Greenwich Village": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "L",
+    "M",
+    "N",
+    "Q",
+    "R",
+    "W"
+  ],
+  "Greenwood": [
+    "D",
+    "N",
+    "R",
+    "W"
+  ],
+  "Guttenberg": [],
+  "Hamilton Heights": [
+    "1",
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "Hell's Kitchen": [
+    "1",
+    "2",
+    "A",
+    "C",
+    "E",
+    "N",
+    "Q",
+    "R",
+    "W"
+  ],
+  "Historic Downtown": [],
+  "Hoboken": [],
+  "Homecrest": [
+    "B",
+    "Q"
+  ],
+  "Hudson Heights": [
+    "1",
+    "A"
+  ],
+  "Hudson Square": [
+    "1",
+    "2",
+    "A",
+    "C",
+    "E",
+    "N",
+    "Q",
+    "R",
+    "W"
+  ],
+  "Hudson Yards": [
+    "1",
+    "2",
+    "3",
+    "7",
+    "A",
+    "C",
+    "E"
+  ],
+  "Hunters Point": [
+    "7",
+    "E",
+    "F",
+    "G"
+  ],
+  "Inwood": [
+    "1",
+    "A"
+  ],
+  "Jackson Heights": [
+    "7"
+  ],
+  "Jamaica": [
+    "E",
+    "F",
+    "J",
+    "Z"
+  ],
+  "Jamaica Estates": [
+    "E",
+    "F"
+  ],
+  "Jamaica Hills": [
+    "E",
+    "F"
+  ],
+  "Jersey City": [],
+  "Journal Square": [],
+  "Kearny": [],
+  "Kensington": [
+    "F"
+  ],
+  "Kew Gardens": [
+    "J",
+    "Z"
+  ],
+  "Kew Gardens Hills": [],
+  "Kingsbridge Heights": [
+    "1"
+  ],
+  "Kips Bay": [
+    "4",
+    "6"
+  ],
+  "Lenox Hill": [
+    "4",
+    "6",
+    "F",
+    "M",
+    "N",
+    "Q",
+    "R"
+  ],
+  "Lincoln Square": [
+    "1",
+    "2",
+    "3",
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "Little Italy": [
+    "4",
+    "6",
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "J",
+    "M",
+    "N",
+    "Q",
+    "R",
+    "W",
+    "Z"
+  ],
+  "Long Island City": [
+    "7",
+    "E",
+    "F",
+    "M",
+    "N",
+    "R",
+    "W"
+  ],
+  "Lower East Side": [
+    "B",
+    "D",
+    "F",
+    "J",
+    "M",
+    "Z"
+  ],
+  "Madison": [],
+  "Manhattan Valley": [
+    "1",
+    "A",
+    "B",
+    "C"
+  ],
+  "Manhattanville": [
+    "1",
+    "A",
+    "B",
+    "C"
+  ],
+  "Marble Hill": [
+    "1"
+  ],
+  "Maspeth": [],
+  "McGinley Square": [],
+  "Melrose": [
+    "2",
+    "5"
+  ],
+  "Middle Village": [],
+  "Midtown": [
+    "1",
+    "2",
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "M",
+    "N",
+    "Q",
+    "R",
+    "W"
+  ],
+  "Midtown South": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "6",
+    "7",
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "M",
+    "N",
+    "Q",
+    "R",
+    "W"
+  ],
+  "Midwood": [
+    "Q"
+  ],
+  "Morningside Heights": [
+    "1",
+    "A",
+    "B",
+    "C"
+  ],
+  "Mott Haven": [
+    "4",
+    "5",
+    "6"
+  ],
+  "Murray Hill": [],
+  "Newport": [],
+  "Noho": [
+    "4",
+    "6",
+    "B",
+    "D",
+    "F",
+    "J",
+    "M",
+    "N",
+    "Q",
+    "R",
+    "W",
+    "Z"
+  ],
+  "Nolita": [
+    "4",
+    "6",
+    "B",
+    "D",
+    "F",
+    "J",
+    "M",
+    "N",
+    "Q",
+    "R",
+    "W",
+    "Z"
+  ],
+  "NoMad": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "6",
+    "B",
+    "D",
+    "F",
+    "M",
+    "N",
+    "Q",
+    "R",
+    "W"
+  ],
+  "North Bergen": [],
+  "North New York": [
+    "6"
+  ],
+  "Oakland Gardens": [],
+  "Ocean Hill": [
+    "A",
+    "C",
+    "J",
+    "L",
+    "Z"
+  ],
+  "Park Slope": [
+    "D",
+    "F",
+    "G",
+    "N",
+    "R",
+    "W"
+  ],
+  "Paulus Hook": [],
+  "Prospect Heights": [
+    "2",
+    "3",
+    "4",
+    "A",
+    "B",
+    "C",
+    "Q"
+  ],
+  "Prospect Lefferts Gardens": [
+    "2",
+    "5",
+    "Q"
+  ],
+  "Prospect Park South": [
+    "B",
+    "Q"
+  ],
+  "Queens Village": [],
+  "Red Hook": [],
+  "Rego Park": [
+    "E",
+    "F",
+    "M",
+    "R"
+  ],
+  "Richmond Hill": [
+    "J",
+    "Z"
+  ],
+  "Ridgewood": [
+    "L",
+    "M"
+  ],
+  "Riverdale": [],
+  "Roosevelt Island": [
+    "F",
+    "M"
+  ],
+  "Saint George": [
+    "SI"
+  ],
+  "Secaucus": [],
+  "Sheepshead Bay": [
+    "B",
+    "Q"
+  ],
+  "Soho": [
+    "1",
+    "2",
+    "4",
+    "6",
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "J",
+    "M",
+    "N",
+    "Q",
+    "R",
+    "W",
+    "Z"
+  ],
+  "Soundview": [],
+  "South Harlem": [
+    "2",
+    "3",
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "Spuyten Duyvil": [],
+  "Stuyvesant Heights": [
+    "J",
+    "Z"
+  ],
+  "Stuyvesant Town/PCV": [
+    "L"
+  ],
+  "Sunnyside": [
+    "7"
+  ],
+  "Sunset Park": [
+    "N",
+    "R",
+    "W"
+  ],
+  "Sutton Place": [
+    "4",
+    "5",
+    "6",
+    "E",
+    "F",
+    "M",
+    "N",
+    "Q",
+    "R",
+    "W"
+  ],
+  "The Heights": [],
+  "The Rockaways": [
+    "A"
+  ],
+  "Throgs Neck": [],
+  "Tribeca": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "A",
+    "C",
+    "E",
+    "J",
+    "N",
+    "Q",
+    "R",
+    "W",
+    "Z"
+  ],
+  "Turtle Bay": [
+    "4",
+    "5",
+    "6",
+    "7",
+    "E",
+    "F"
+  ],
+  "Two Bridges": [
+    "B",
+    "D",
+    "F",
+    "J",
+    "M",
+    "Z"
+  ],
+  "Union City": [],
+  "University Heights": [
+    "1",
+    "4"
+  ],
+  "Upper East Side": [
+    "4",
+    "5",
+    "6",
+    "N",
+    "Q",
+    "R"
+  ],
+  "Upper West Side": [
+    "1",
+    "2",
+    "3",
+    "A",
+    "B",
+    "C"
+  ],
+  "Vinegar Hill": [
+    "A",
+    "C",
+    "F"
+  ],
+  "Washington Heights": [
+    "1",
+    "A",
+    "C"
+  ],
+  "Waterfront": [],
+  "Weehawken": [],
+  "Weeksville": [
+    "2",
+    "3",
+    "4",
+    "5"
+  ],
+  "West Chelsea": [
+    "7",
+    "A",
+    "C",
+    "E"
+  ],
+  "West Harlem": [
+    "1",
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "West New York": [],
+  "West Side": [],
+  "West Village": [
+    "1",
+    "2",
+    "3",
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "L",
+    "M"
+  ],
+  "Williamsburg": [
+    "G",
+    "J",
+    "L",
+    "M",
+    "Z"
+  ],
+  "Windsor Terrace": [
+    "F",
+    "G"
+  ],
+  "Wingate": [
+    "2",
+    "5"
+  ],
+  "Woodhaven": [
+    "J",
+    "Z"
+  ],
+  "Woodside": [
+    "7",
+    "E",
+    "F",
+    "M",
+    "R"
+  ],
+  "Yorkville": [
+    "4",
+    "5",
+    "6",
+    "N",
+    "Q",
+    "R"
+  ]
+}
