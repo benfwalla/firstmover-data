@@ -39,12 +39,6 @@ const resources: Resource[] = [
     category: 'tools',
   },
   {
-    title: 'Rent by Salary',
-    description: 'See what neighborhoods you can actually afford based on your salary and NYC\'s tax situation.',
-    href: '/tools/afford',
-    category: 'tools',
-  },
-  {
     title: 'Is My Rent Fair?',
     description: 'Compare your rent to the median in your neighborhood. Find out if you\'re overpaying.',
     href: '/tools/rent-check',
