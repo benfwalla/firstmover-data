@@ -10,8 +10,9 @@ export function FixedNavbar() {
     <nav className="fixed-navbar">
       <div className="container">
         <div className="nav-container">
-          <Link href="/" className="nav-logo-link">
-            <img src="/logo-full.svg" alt="FirstMover" className="nav-logo nav-logo-full" />
+          <Link href="/" className="nav-logo-link" style={{ display: 'flex', alignItems: 'center', gap: '8px', textDecoration: 'none' }}>
+            <img src="/logo.svg" alt="" style={{ height: '28px', width: 'auto' }} />
+            <span style={{ fontFamily: 'var(--font-heading)', fontWeight: 600, fontSize: '16px', color: 'var(--text)', letterSpacing: '-0.02em' }}>Open Data Project</span>
           </Link>
 
           {/* Desktop Navigation */}
