@@ -966,18 +966,29 @@ a:hover {
 
 .site-footer p {
   font-size: 14px;
-  color: #666;
+  color: black;
   margin: 0;
 }
 
-.site-footer a {
-  color: var(--blue);
+.footer-link {
+  color: black;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 400;
 }
 
-.site-footer a:hover {
-  text-decoration: underline;
+.footer-link:hover {
+  text-decoration: none;
+}
+
+.footer-github {
+  display: flex;
+  color: black;
+  opacity: 0.3;
+  transition: opacity 0.2s ease;
+}
+
+.footer-github:hover {
+  opacity: 1;
 }
 
 /* Publication-Style Homepage */
