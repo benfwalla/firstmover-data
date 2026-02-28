@@ -1,39 +1,8 @@
 #!/usr/bin/env node
 
-import { Client } from 'pg';
+import { getDBClient } from './db.mjs';
 import fs from 'fs';
 import path from 'path';
-
-// Database configuration using the host fallback pattern
-const HOSTS = [
-  'aws-0-us-west-1.pooler.supabase.com',
-  '54.177.55.191', 
-  '52.8.172.168',
-];
-
-async function getDBClient() {
-  const config = {
-    port: 5432,
-    database: 'postgres',
-    user: 'readonly_agent.tdrshcdwetrbivhjikup',
-    password: 'process.env.SUPABASE_PASSWORD',
-    ssl: { rejectUnauthorized: false, servername: 'aws-0-us-west-1.pooler.supabase.com' },
-    connectionTimeoutMillis: 8000,
-  };
-
-  for (const host of HOSTS) {
-    try {
-      console.log(`Trying to connect to ${host}...`);
-      const client = new Client({ ...config, host });
-      await client.connect();
-      console.log(`Connected to ${host}`);
-      return client;
-    } catch (e) {
-      console.log(`Failed to connect to ${host}: ${e.message}`);
-    }
-  }
-  throw new Error('All database connection attempts failed');
-}
 
 async function generateBlogData() {
   const client = await getDBClient();

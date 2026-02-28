@@ -1,16 +1,6 @@
-import { Pool } from 'pg';
+import { getDBClient } from './db.mjs';
 import fs from 'fs';
 import path from 'path';
-
-// Database connection
-const pool = new Pool({
-  host: 'aws-0-us-west-1.pooler.supabase.com',
-  port: 5432,
-  user: 'readonly_agent.tdrshcdwetrbivhjikup',
-  password: 'process.env.SUPABASE_PASSWORD',
-  database: 'postgres',
-  ssl: { rejectUnauthorized: false }
-});
 
 // Subway line colors for rendering train icons
 const SUBWAY_LINE_COLORS = {
@@ -68,6 +58,7 @@ function findSubwayLines(neighborhoodLat, neighborhoodLng) {
 }
 
 async function updateFebruaryData() {
+  const client = await getDBClient();
   console.log('🔄 Updating February 2026 data...');
   
   // FIX 1: Query all neighborhoods for geoData
@@ -85,7 +76,7 @@ async function updateFebruaryData() {
     ORDER BY area_name
   `;
   
-  const geoResult = await pool.query(geoQuery);
+  const geoResult = await client.query(geoQuery);
   console.log(`📍 Found ${geoResult.rows.length} neighborhoods with geographic data`);
   
   // FIX 2: Query monthly trends with bedroom breakdown
@@ -101,7 +92,7 @@ async function updateFebruaryData() {
     ORDER BY month, bedroom_count
   `;
   
-  const trendsResult = await pool.query(trendsQuery);
+  const trendsResult = await client.query(trendsQuery);
   console.log(`📊 Found ${trendsResult.rows.length} monthly trend data points`);
   
   // Load existing data file
@@ -151,7 +142,7 @@ async function updateCommuteData() {
     ORDER BY area_name
   `;
   
-  const neighborhoodsResult = await pool.query(neighborhoodsQuery);
+  const neighborhoodsResult = await client.query(neighborhoodsQuery);
   console.log(`🗽 Found ${neighborhoodsResult.rows.length} neighborhoods for commute data`);
   
   const commuteData = {};
@@ -197,7 +188,7 @@ async function main() {
   } catch (error) {
     console.error('❌ Error updating data:', error);
   } finally {
-    await pool.end();
+    await client.end();
   }
 }
 

@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { Pool } from 'pg';
+import { getDBClient } from './db.mjs';
 import { writeFileSync } from 'fs';
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
@@ -8,17 +8,8 @@ import { dirname, join } from 'path';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-// Database connection
-const pool = new Pool({
-  host: 'aws-0-us-west-1.pooler.supabase.com',
-  port: 5432,
-  database: 'postgres',
-  user: 'readonly_agent.tdrshcdwetrbivhjikup',
-  password: 'process.env.SUPABASE_PASSWORD',
-  ssl: { rejectUnauthorized: false },
-});
-
 async function generateReport() {
+  const client = await getDBClient();
   try {
     console.log('🔍 Fetching January 2026 data...');
     
@@ -32,7 +23,7 @@ async function generateReport() {
         AND price > 0
     `;
     
-    const marketStats = await pool.query(marketStatsQuery);
+    const marketStats = await client.query(marketStatsQuery);
     console.log('✅ Market stats fetched');
     
     // Query 2: Average price by bedroom count
@@ -50,7 +41,7 @@ async function generateReport() {
       ORDER BY bedroom_count
     `;
     
-    const bedroomPrices = await pool.query(bedroomPricesQuery);
+    const bedroomPrices = await client.query(bedroomPricesQuery);
     console.log('✅ Bedroom price breakdown fetched');
     
     // Query 3: Top 20 neighborhoods by listing volume with rent breakdown
@@ -68,7 +59,7 @@ async function generateReport() {
       LIMIT 20
     `;
     
-    const topNeighborhoods = await pool.query(topNeighborhoodsQuery);
+    const topNeighborhoods = await client.query(topNeighborhoodsQuery);
     console.log('✅ Top neighborhoods fetched');
     
     // Query 4: Neighborhood rent breakdown (1BR/2BR/3BR)
@@ -88,7 +79,7 @@ async function generateReport() {
       ORDER BY area_name, bedroom_count
     `;
     
-    const neighborhoodRents = await pool.query(
+    const neighborhoodRents = await client.query(
       neighborhoodRentsQuery,
       topNeighborhoods.rows.map(row => row.area_name)
     );
@@ -107,7 +98,7 @@ async function generateReport() {
       ORDER BY month
     `;
     
-    const monthlyTrends = await pool.query(monthlyTrendsQuery);
+    const monthlyTrends = await client.query(monthlyTrendsQuery);
     console.log('✅ Monthly trends fetched');
     
     // Query 6: Example listings at specific price points
@@ -137,7 +128,7 @@ async function generateReport() {
         LIMIT 1
       `;
       
-      const listing = await pool.query(listingQuery, [price - 200, price + 200]);
+      const listing = await client.query(listingQuery, [price - 200, price + 200]);
       if (listing.rows.length > 0) {
         exampleListings.push({
           ...listing.rows[0],
@@ -168,7 +159,7 @@ async function generateReport() {
     
     let geoData = [];
     try {
-      const geoResult = await pool.query(geoDataQuery);
+      const geoResult = await client.query(geoDataQuery);
       geoData = geoResult.rows;
       console.log('✅ Geographic data fetched');
     } catch (error) {
@@ -226,7 +217,7 @@ async function generateReport() {
     console.error('❌ Error generating report:', error);
     process.exit(1);
   } finally {
-    await pool.end();
+    await client.end();
   }
 }
 
