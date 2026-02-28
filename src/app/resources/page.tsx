@@ -1,9 +1,20 @@
 'use client';
 
 import { useState } from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 
 type Category = 'all' | 'tools' | 'search' | 'research' | 'guides';
+
+function getFaviconUrl(href: string, external?: boolean): string | null {
+  if (!external) return null;
+  try {
+    const domain = new URL(href).hostname;
+    return `https://www.google.com/s2/favicons?domain=${domain}&sz=32`;
+  } catch {
+    return null;
+  }
+}
 
 interface Resource {
   title: string;
@@ -154,12 +165,25 @@ export default function ResourcesPage() {
 
       <div className="tools-grid">
         {filtered.map(r => {
+          const favicon = getFaviconUrl(r.href, r.external);
           const inner = (
             <>
-              <h3 className="tool-title">
-                {r.title}
-                {r.external && <span style={{ fontSize: '13px', opacity: 0.4, marginLeft: '6px' }}>↗</span>}
-              </h3>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                {favicon && (
+                  <Image
+                    src={favicon}
+                    alt=""
+                    width={20}
+                    height={20}
+                    style={{ borderRadius: '4px', flexShrink: 0 }}
+                    unoptimized
+                  />
+                )}
+                <h3 className="tool-title" style={{ margin: 0 }}>
+                  {r.title}
+                  {r.external && <span style={{ fontSize: '13px', opacity: 0.4, marginLeft: '6px' }}>↗</span>}
+                </h3>
+              </div>
               <p className="tool-description">{r.description}</p>
             </>
           );
