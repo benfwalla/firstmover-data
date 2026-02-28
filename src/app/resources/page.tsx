@@ -54,7 +54,7 @@ const resources: Resource[] = [
   // Apartment Search
   {
     title: 'FirstMover',
-    description: 'Instant push notifications when new StreetEasy listings match your search. Be the first to respond.',
+    description: 'Instant push notifications when new StreetEasy listings match your search.',
     href: 'https://apps.apple.com/us/app/firstmover/id6740444528',
     external: true,
     category: 'search',
@@ -75,7 +75,7 @@ const resources: Resource[] = [
   },
   {
     title: 'Unseen Apartments',
-    description: 'Hire locals to tour apartments for you. They send back photos, videos, and notes. Good for remote apartment hunting.',
+    description: 'Hire locals to tour apartments for you. They send back photos, videos, and notes.',
     href: 'https://unseenapartments.io',
     external: true,
     category: 'search',
@@ -120,7 +120,7 @@ const resources: Resource[] = [
   },
   {
     title: 'Advice for NYC Apartment Seekers',
-    description: 'Practical tips from someone who posted a popular listing — lessons learned about the process, red flags, and how to stand out as an applicant.',
+    description: 'Practical tips from someone who posted a popular NYC listing, covering the process, red flags, and what makes applicants stand out.',
     href: 'https://www.reddit.com/r/NYCapartments/comments/1efhsj0/',
     external: true,
     category: 'guides',
