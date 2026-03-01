@@ -72,27 +72,43 @@ export function getAllPosts(): Post[] {
 export function getPostBySlug(type: 'report' | 'blog', slug: string): Post | null {
   try {
     const filePath = path.join(CONTENT_DIR, type === 'report' ? 'reports' : 'blog', `${slug}.mdx`);
-    
-    if (!fs.existsSync(filePath)) {
-      return null;
-    }
-    
     const fileContents = fs.readFileSync(filePath, 'utf8');
     const { data, content } = matter(fileContents);
-    
+
     return {
       slug,
       frontmatter: { ...data, type, slug } as PostFrontmatter,
       content
     };
   } catch (error) {
-    console.error(`Error reading ${type}/${slug}:`, error);
+    if ((error as NodeJS.ErrnoException).code !== 'ENOENT') {
+      console.error(`Error reading ${type}/${slug}:`, error);
+    }
     return null;
   }
 }
 
 export function getPostsByType(type: 'report' | 'blog'): Post[] {
   return getAllPosts().filter(post => post.frontmatter.type === type);
+}
+
+export interface Page {
+  frontmatter: { title: string; description: string; [key: string]: string };
+  content: string;
+}
+
+export function getPage(slug: string): Page | null {
+  try {
+    const filePath = path.join(CONTENT_DIR, 'pages', `${slug}.mdx`);
+    const fileContents = fs.readFileSync(filePath, 'utf8');
+    const { data, content } = matter(fileContents);
+    return { frontmatter: data as Page['frontmatter'], content };
+  } catch (error) {
+    if ((error as NodeJS.ErrnoException).code !== 'ENOENT') {
+      console.error(`Error reading page/${slug}:`, error);
+    }
+    return null;
+  }
 }
 
 export function getAllSlugs(): { type: 'report' | 'blog'; slug: string }[] {

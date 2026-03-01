@@ -81,8 +81,11 @@ export default function OpenDataPage() {
         <p className="tool-description" style={{ marginBottom: '12px' }}>
           Every month, we collect publicly available rental listings and publish the raw data here for anyone to use. Each row represents a listing as it first appeared on the market. Listings may be updated after their initial posting (price changes, status updates, etc.) and those changes are not reflected here.
         </p>
-        <p className="tool-description" style={{ marginBottom: '20px' }}>
+        <p className="tool-description" style={{ marginBottom: '12px' }}>
           Each CSV contains 34 columns, referenced below. No copyrighted content like descriptions is reproduced. This project is not affiliated with or endorsed by StreetEasy or Zillow Group.
+        </p>
+        <p className="tool-description" style={{ marginBottom: '20px' }}>
+          If you&rsquo;re a researcher that would like access to our real-time database, reach out at firstmovernyc@gmail.com for inquiry.
         </p>
 
         <div style={{ marginBottom: '20px', textAlign: 'right' }}>

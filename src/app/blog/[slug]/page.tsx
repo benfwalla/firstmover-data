@@ -1,14 +1,12 @@
-import { MDXRemote } from 'next-mdx-remote/rsc';
-import remarkGfm from 'remark-gfm';
+import { compileMDXContent } from '@/lib/mdx';
 import { getPostBySlug, getAllSlugs } from '@/lib/content';
-import { 
-  StatCards, 
-  DataTable, 
-  ListingCard, 
+import {
+  StatCards,
+  DataTable,
+  ListingCard,
   DataAttribution,
   PriceTrendsChart,
   NeighborhoodMap,
-  mdxComponents 
 } from '@/components/mdx-components';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
@@ -27,7 +25,7 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: BlogPostPageProps) {
   const resolvedParams = await params;
   const post = getPostBySlug('blog', resolvedParams.slug);
-  
+
   if (!post) {
     return {
       title: 'Post Not Found | FirstMover Data'
@@ -48,10 +46,19 @@ export async function generateMetadata({ params }: BlogPostPageProps) {
 export default async function BlogPostPage({ params }: BlogPostPageProps) {
   const resolvedParams = await params;
   const post = getPostBySlug('blog', resolvedParams.slug);
-  
+
   if (!post) {
     notFound();
   }
+
+  const Content = await compileMDXContent(post.content, {
+    StatCards,
+    DataTable,
+    ListingCard,
+    DataAttribution,
+    PriceTrendsChart,
+    NeighborhoodMap,
+  });
 
   return (
     <div className="publication-section narrow">
@@ -64,8 +71,8 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
           <p className="section-subtitle">
             {post.frontmatter.description}
           </p>
-          <div style={{ 
-            fontSize: '14px', 
+          <div style={{
+            fontSize: '14px',
             color: '#888',
             display: 'flex',
             justifyContent: 'center',
@@ -88,18 +95,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
 
         {/* Content */}
         <div className="report-narrative">
-          <MDXRemote 
-            source={post.content} 
-            options={{ mdxOptions: { remarkPlugins: [remarkGfm] } }}
-            components={{
-              StatCards,
-              DataTable,
-              ListingCard,
-              DataAttribution,
-              PriceTrendsChart,
-              NeighborhoodMap
-            }}
-          />
+          <Content />
         </div>
 
         {/* Footer Navigation */}

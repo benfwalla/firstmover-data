@@ -2,7 +2,17 @@
   "permissions": {
     "allow": [
       "Bash(bun add jszip)",
-      "Bash(bun run build)"
+      "Bash(bun run build)",
+      "WebFetch(domain:www.ignorance.ai)",
+      "WebFetch(domain:techbytes.app)",
+      "WebFetch(domain:stackoverflow.blog)",
+      "WebFetch(domain:ben-mini.com)",
+      "Bash(git show HEAD~2:src/app/blog/[slug]/page.tsx)",
+      "Bash(git show HEAD:src/app/reports/[slug]/page.tsx)",
+      "Bash(git diff src/app/blog/[slug]/page.tsx)",
+      "Bash(git diff src/app/reports/[slug]/page.tsx)",
+      "Bash(xargs ls -la)",
+      "Bash(bun add @mdx-js/mdx)"
     ]
   }
 }
