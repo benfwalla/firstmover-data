@@ -64,7 +64,7 @@ export default async function ReportPage({ params }: ReportPageProps) {
           monthlyTrendsWithBedrooms={februaryData.monthlyTrendsWithBedrooms}
           {...props}
         />
-        <div style={{ fontSize: '12px', color: '#aaa', textAlign: 'right', marginTop: '8px' }}>Powered by data provided by FirstMover</div>
+        <div style={{ fontSize: '12px', color: '#aaa', textAlign: 'right', marginTop: '8px' }}>Data from FirstMover</div>
       </div>
     ),
     NeighborhoodMap: (props: any) => (
@@ -72,7 +72,7 @@ export default async function ReportPage({ params }: ReportPageProps) {
         <div className="map-container">
           <NeighborhoodMap data={februaryData.geoData} {...props} />
         </div>
-        <div style={{ fontSize: '12px', color: '#aaa', textAlign: 'right', marginTop: '8px' }}>Powered by data provided by FirstMover</div>
+        <div style={{ fontSize: '12px', color: '#aaa', textAlign: 'right', marginTop: '8px' }}>Data from FirstMover</div>
       </div>
     ),
     DataTable: (props: any) => (
