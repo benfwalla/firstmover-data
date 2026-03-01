@@ -1,4 +1,6 @@
-export const metadata = {
+'use client';
+
+const metadata = {
   title: 'Open Data | FirstMover Open Data Project',
   description: 'Free NYC rental listing data. Monthly CSVs and rent stabilized building records.',
 };
@@ -58,6 +60,30 @@ const COLUMNS = [
   { name: 'url', desc: 'Full StreetEasy listing URL' },
 ];
 
+function DownloadLink({ href, filename, children, ...props }: { href: string; filename: string; children: React.ReactNode; [key: string]: any }) {
+  return (
+    <a
+      href={href}
+      {...props}
+      onClick={(e) => {
+        e.preventDefault();
+        fetch(href)
+          .then(r => r.blob())
+          .then(blob => {
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = filename;
+            a.click();
+            URL.revokeObjectURL(url);
+          });
+      }}
+    >
+      {children}
+    </a>
+  );
+}
+
 export default function OpenDataPage() {
   return (
     <div className="publication-section narrow">
@@ -87,9 +113,9 @@ export default function OpenDataPage() {
               {monthlyData.map((d) => (
                 <tr key={d.file}>
                   <td>
-                    <a href={`https://raw.githubusercontent.com/benfwalla/firstmover-open-data-project/main/public/data/${d.file}`} download style={{ fontWeight: 500 }}>
+                    <DownloadLink href={`https://raw.githubusercontent.com/benfwalla/firstmover-open-data-project/main/public/data/${d.file}`} filename={d.file} style={{ fontWeight: 500 }}>
                       {d.month}
-                    </a>
+                    </DownloadLink>
                     {d.note && (
                       <span style={{ fontSize: '12px', color: '#999', marginLeft: '8px' }}>
                         *{d.note}
