@@ -9,6 +9,7 @@ import {
 import { notFound } from 'next/navigation';
 
 import februaryData from '@/data/february-2026-data.json';
+import marchData from '@/data/march-2026-data.json';
 
 interface ReportPageProps {
   params: Promise<{ slug: string }>;
@@ -41,45 +42,47 @@ export default async function ReportPage({ params }: ReportPageProps) {
   const post = getPostBySlug('report', slug);
   if (!post) notFound();
 
-  // Build neighborhood table data
-  const neighborhoodData = slug === 'february-2026'
-    ? februaryData.topNeighborhoods.slice(0, 20).map((n, i) => {
-        const change = februaryData.neighborhoodChanges.find(c => c.area_name === n.area_name);
-        return {
-          rank: i + 1,
-          neighborhood: n.area_name,
-          listings: parseInt(n.listing_count as string),
-          median_rent: n.median_rent,
-          price_change: change?.price_change || 0,
-          pct_change: change?.pct_change || 0,
-        };
-      })
-    : [];
+  // Select data based on report slug
+  const reportDataMap: Record<string, any> = {
+    'february-2026': februaryData,
+    'march-2026': marchData,
+  };
+  const data = reportDataMap[slug];
+  if (!data) notFound();
+
+  const neighborhoodData = data.topNeighborhoods.slice(0, 20).map((n: any, i: number) => {
+    const change = data.neighborhoodChanges.find((c: any) => c.area_name === n.area_name);
+    return {
+      rank: i + 1,
+      neighborhood: n.area_name,
+      listings: parseInt(n.listing_count as string),
+      median_rent: n.median_rent,
+      price_change: change?.price_change || 0,
+      pct_change: change?.pct_change || 0,
+    };
+  });
 
   const Content = await compileMDXContent(post.content, {
     PriceTrendsChart: (props: any) => (
       <div className="chart-wrapper" style={{ margin: '32px 0' }}>
         <PriceTrendsChart
-          data={februaryData.monthlyTrends}
-          monthlyTrendsWithBedrooms={februaryData.monthlyTrendsWithBedrooms}
+          data={data.monthlyTrends}
+          monthlyTrendsWithBedrooms={data.monthlyTrendsWithBedrooms}
           {...props}
         />
-        <div style={{ fontSize: '12px', color: '#aaa', textAlign: 'right', marginTop: '8px' }}>Data from FirstMover</div>
+        <div style={{ fontSize: '12px', color: '#aaa', textAlign: 'right', marginTop: '8px' }}>Powered by data provided by FirstMover</div>
       </div>
     ),
     NeighborhoodMap: (props: any) => (
       <div style={{ margin: '32px 0' }}>
         <div className="map-container">
-          <NeighborhoodMap data={februaryData.geoData} {...props} />
+          <NeighborhoodMap data={data.geoData} {...props} />
         </div>
-        <div style={{ fontSize: '12px', color: '#aaa', textAlign: 'right', marginTop: '8px' }}>Data from FirstMover</div>
+        <div style={{ fontSize: '12px', color: '#aaa', textAlign: 'right', marginTop: '8px' }}>Powered by data provided by FirstMover</div>
       </div>
     ),
     DataTable: (props: any) => (
-      <DataTable
-        data={neighborhoodData}
-        {...props}
-      />
+      <DataTable data={neighborhoodData} {...props} />
     ),
     DataAttribution,
   });
