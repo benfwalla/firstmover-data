@@ -457,6 +457,33 @@ a:hover {
   margin-bottom: 24px;
 }
 
+.report-narrative table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 24px 0;
+  font-size: 15px;
+}
+
+.report-narrative th {
+  text-align: left;
+  padding: 10px 12px;
+  border-bottom: 2px solid var(--light-gray);
+  font-weight: 600;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #888;
+}
+
+.report-narrative td {
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--light-gray);
+}
+
+.report-narrative tr:last-child td {
+  border-bottom: none;
+}
+
 .report-footer {
   background: var(--dark);
   color: white;
