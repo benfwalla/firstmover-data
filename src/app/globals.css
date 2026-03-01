@@ -1022,12 +1022,14 @@ a:hover {
 .home-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 64px;
+  gap: 24px;
+  row-gap: 24px;
   align-items: start;
 }
 
 .home-intro {
   padding-top: 16px;
+  padding-right: 40px;
 }
 
 .home-intro .publication-title {
@@ -1059,12 +1061,6 @@ a:hover {
   text-decoration: underline;
 }
 
-.home-nav-cards {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-
 @media (max-width: 810px) {
   .home-hero {
     padding: 80px 0 48px;
@@ -1072,7 +1068,11 @@ a:hover {
 
   .home-grid {
     grid-template-columns: 1fr;
-    gap: 40px;
+    gap: 24px;
+  }
+
+  .home-intro {
+    padding-right: 0;
   }
 
   .home-intro .publication-title {
@@ -1168,6 +1168,27 @@ a:hover {
 
 .tool-card:hover {
   text-decoration: none;
+}
+
+.tool-card-preview-wrapper {
+  position: relative;
+  overflow: hidden;
+  max-height: 150px;
+  margin-top: 16px;
+}
+
+.tool-card-preview-wrapper::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, transparent 85%, white),
+              linear-gradient(to left, white 0%, transparent 40%);
+  pointer-events: none;
+}
+
+.tool-card-preview {
+  width: 100%;
+  display: block;
 }
 
 .tool-title {

@@ -154,8 +154,8 @@ export default function OpenDataPage() {
         <p className="tool-description" style={{ marginBottom: '20px' }}>
           The Rent Guidelines Board notes its data &ldquo;...do not indicate which apartments in these buildings are rent stabilized, but rather, only those buildings that contain at least one rent stabilized unit.&rdquo; This is a hobby project and is not affiliated with NYC.gov.
         </p>
-        <a href="https://docs.google.com/spreadsheets/d/1_yUjWl9Z1z6T_8oRqXscOU6KFV25ECYgVO69lORFyxI/edit?usp=drivesdk" target="_blank" rel="noopener noreferrer" className="cta-button" style={{ fontSize: '14px', padding: '10px 24px' }}>
-          View Google Sheet
+        <a href="https://docs.google.com/spreadsheets/d/1_yUjWl9Z1z6T_8oRqXscOU6KFV25ECYgVO69lORFyxI/edit?usp=drivesdk" target="_blank" rel="noopener noreferrer" className="cta-button" style={{ fontSize: '14px', padding: '10px 24px', background: 'var(--text)' }}>
+          View Google Sheet <span style={{ fontSize: '13px', color: 'white' }}>↗</span>
         </a>
       </div>
     </div>
