@@ -1,77 +1,51 @@
 ---
-title: "NYC Rent Report · February 2026"
+title: "NYC Rent Report"
 date: "2026-02-01"
-description: "Covering January 2026 market data"
+description: "January 2026 Market Data"
 type: report
-tags: [monthly-report, january-data, market-analysis]
-readTime: "8 min read"
 ---
 
-## TL;DR
+## Summary
 
-- January saw 17,412 new listings — the most since summer 2023
-- Citywide median rent held steady at $3,595, barely changed from December  
-- Supply surge came mostly from Williamsburg, Bushwick, and Flatbush — new construction hitting the market
+January 2026 saw **17,412 new rental listings** across New York City, the highest monthly total since August 2025 (24,228). Citywide median asking rent was **$3,550**, up slightly from $3,500 in December.
 
-## Market Overview
+Across the 145 neighborhoods with enough data to compare, the median month-over-month rent change was **+2%**. The largest price swings came from smaller markets: Saint George dropped 53% (likely a data outlier at low volume), while Noho jumped 39%.
 
-**Key Market Stats:**
-- **Total listings:** 17,412
-- **Median rent:** $3,595
-- **1BR median:** $3,427
-- **2BR median:** $3,995
-- **3BR median:** $4,000
-- **Avg MoM change:** -$157
+The full dataset behind this report — 17,412 individual listings with 34 columns each — is available for free on the [Open Data](/open-data) page.
 
-## Neighborhood Rankings
+## By Bedroom Count
 
-Top 20 neighborhoods by listing volume in January 2026
+| Type | Listings | Median Rent |
+|------|----------|-------------|
+| Studio | 2,873 | $3,100 |
+| 1 Bedroom | 6,991 | $3,427 |
+| 2 Bedroom | 5,359 | $3,995 |
+| 3 Bedroom | 1,816 | $4,000 |
 
-| Rank | Neighborhood | Listings | Median Rent | MoM Change |
-|------|-------------|----------|-------------|------------|
-| 1 | Williamsburg | 683 | $4,600 | +$19 (0%) |
-| 2 | Bushwick | 655 | $3,439 | +$39 (+1%) |
-| 3 | Flatbush | 528 | $2,975 | +$90 (+3%) |
-| 4 | Astoria | 523 | $2,995 | +$10 (0%) |
-| 5 | Hell's Kitchen | 472 | $4,495 | $0 (0%) |
-| 6 | Crown Heights | 414 | $3,500 | $0 (0%) |
-| 7 | Upper West Side | 388 | $4,564 | +$69 (+2%) |
-| 8 | East Village | 378 | $4,738 | +$343 (+8%) |
-| 9 | Stuyvesant Heights | 367 | $3,150 | +$38 (+1%) |
-| 10 | Yorkville | 358 | $4,138 | +$288 (+7%) |
-| 11 | Hunters Point | 355 | $4,500 | +$20 (0%) |
-| 12 | Bedford-Stuyvesant | 313 | $3,300 | -$100 (-3%) |
-| 13 | Downtown Brooklyn | 310 | $4,759 | +$359 (+8%) |
-| 14 | Lenox Hill | 310 | $3,898 | -$552 (-12%) |
-| 15 | Greenpoint | 293 | $4,726 | +$257 (+6%) |
-| 16 | Financial District | 261 | $4,595 | -$121 (-3%) |
-| 17 | Murray Hill | 248 | $4,450 | +$16 (0%) |
-| 18 | West Village | 234 | $5,295 | +$195 (+4%) |
-| 19 | Chelsea | 229 | $5,195 | +$195 (+4%) |
-| 20 | Lincoln Square | 202 | $5,364 | +$64 (+1%) |
+One-bedrooms made up 40% of all listings. The gap between studios ($3,100) and one-bedrooms ($3,427) is $327/month, or about 10.5%. Two- and three-bedrooms clustered closely together at $3,995 and $4,000 — the per-person cost on a 3BR is significantly lower than a studio.
 
-## Price Trends
-
-Six months of median rent data, citywide
+## Median Rent Over Time
 
 <PriceTrendsChart />
 
-## Geographic Distribution
+Median rent peaked at $3,800 in August 2025 during the summer rental rush, then declined through the fall as seasonal demand cooled. January's $3,550 marks the first uptick since that peak, likely driven by the influx of new inventory rather than a demand shift — more units means more price points pulling the median in different directions.
 
-Listing volume by neighborhood in January 2026
+## Listing Volume by Neighborhood
 
 <NeighborhoodMap />
 
-## Analysis
+## Top 20 Neighborhoods by Volume
 
-January's surge to 17,412 new listings represents the largest monthly influx since summer 2023. Yet median rent barely budged from December's levels.
+The 20 neighborhoods with the most new listings in January 2026, with month-over-month median rent changes compared to December 2025.
 
-Williamsburg topped the volume charts with 683 new apartments, followed by Bushwick at 655. This concentration in north Brooklyn reflects new construction coming online, not organic market expansion.
+<DataTable />
 
-The bedroom breakdown tells the real story. One-bedrooms dominated with 6,991 listings at $3,427 median. Two-bedrooms numbered 5,359 at $3,995. Studios remained scarce — just 2,873 units.
+## Biggest Price Movements
 
-Neighborhood price movements varied dramatically. Saint George, Hudson Square, and Red Hook saw significant drops, while others increased.
+Among neighborhoods with at least 10 listings in both December and January:
 
-## What's Next
+**Largest drops:** Saint George (-53%), Sheepshead Bay (-16%), Wingate (-15%), Red Hook (-14%), Riverdale (-14%)
 
-February will test whether January's inventory surge represents a lasting shift or seasonal adjustment. Watch for continued new construction deliveries in Williamsburg and Long Island City.
+**Largest increases:** Noho (+39%), Secaucus (+27%), Glendale (+25%), Vinegar Hill (+24%), Cliffside Park (+21%)
+
+Most of these are low-volume neighborhoods where a handful of luxury or below-market listings can swing the median significantly. In the top 20 by volume, price movements were much more stable — generally between -3% and +8%.

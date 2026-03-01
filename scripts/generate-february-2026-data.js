@@ -94,7 +94,7 @@ async function generateFebruaryReportData() {
       FROM listings 
       WHERE created_at >= '2025-08-01' AND created_at < '2026-02-01'
         AND price > 0 AND price < 20000
-        AND bedroom_count BETWEEN 1 AND 3
+        AND bedroom_count BETWEEN 0 AND 3
       GROUP BY DATE_TRUNC('month', created_at), bedroom_count
       ORDER BY month, bedroom_count
     `;

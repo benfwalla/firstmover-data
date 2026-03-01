@@ -143,15 +143,6 @@ export function PriceTrendsChart({ data, monthlyTrendsWithBedrooms }: Props) {
         </AreaChart>
       </ResponsiveContainer>
       
-      {/* Data attribution */}
-      <div style={{
-        fontSize: '12px',
-        color: '#888',
-        textAlign: 'right',
-        marginTop: '8px'
-      }}>
-        Data from FirstMover
-      </div>
     </div>
   );
 }

@@ -173,6 +173,10 @@
       "3": {
         "median_rent": 4600,
         "listing_count": 3080
+      },
+      "studio": {
+        "median_rent": 3200,
+        "listing_count": 3862
       }
     },
     "Mon Sep 01 2025 00:00:00 GMT+0000 (Coordinated Universal Time)": {
@@ -187,6 +191,10 @@
       "3": {
         "median_rent": 4300,
         "listing_count": 2690
+      },
+      "studio": {
+        "median_rent": 3175,
+        "listing_count": 3559
       }
     },
     "Wed Oct 01 2025 00:00:00 GMT+0000 (Coordinated Universal Time)": {
@@ -201,6 +209,10 @@
       "3": {
         "median_rent": 4200,
         "listing_count": 1880
+      },
+      "studio": {
+        "median_rent": 3150,
+        "listing_count": 2645
       }
     },
     "Sat Nov 01 2025 00:00:00 GMT+0000 (Coordinated Universal Time)": {
@@ -215,6 +227,10 @@
       "3": {
         "median_rent": 3995,
         "listing_count": 1276
+      },
+      "studio": {
+        "median_rent": 3000,
+        "listing_count": 1808
       }
     },
     "Mon Dec 01 2025 00:00:00 GMT+0000 (Coordinated Universal Time)": {
@@ -229,6 +245,10 @@
       "3": {
         "median_rent": 3950,
         "listing_count": 1765
+      },
+      "studio": {
+        "median_rent": 2995,
+        "listing_count": 2544
       }
     },
     "Thu Jan 01 2026 00:00:00 GMT+0000 (Coordinated Universal Time)": {
@@ -243,6 +263,10 @@
       "3": {
         "median_rent": 4000,
         "listing_count": 1816
+      },
+      "studio": {
+        "median_rent": 3100,
+        "listing_count": 2873
       }
     }
   },
@@ -1286,33 +1310,33 @@
     },
     {
       "area_name": "Astoria",
-      "price": 2695,
+      "price": 3400,
       "bedroom_count": 1,
       "full_bathroom_count": 1,
       "living_area_size": 0,
-      "lead_media_photo": "8f0e9c57aa5fbc1ad23b55a1be859ed7",
-      "url_path": "/building/31_37-30-street-astoria/3b",
-      "street": "31-37 30th Street"
+      "lead_media_photo": "4193fc6c2306130d72be415a2be033c7",
+      "url_path": "/building/nova-astoria/419",
+      "street": "11-14 35th Avenue"
     },
     {
       "area_name": "Auburndale",
-      "price": 4500,
-      "bedroom_count": 3,
-      "full_bathroom_count": 2,
-      "living_area_size": 0,
-      "lead_media_photo": "e58d89014a398219cc422a70e752470c",
-      "url_path": "/rental/4955404",
-      "street": "199-34 34th Avenue"
+      "price": 2750,
+      "bedroom_count": 2,
+      "full_bathroom_count": 1,
+      "living_area_size": 1015,
+      "lead_media_photo": "267c2f8e46579844a3505e385486b3df",
+      "url_path": "/building/53_19-193-street-fresh_meadows/1",
+      "street": "53-19 193rd Street"
     },
     {
       "area_name": "Bath Beach",
-      "price": 1775,
-      "bedroom_count": 0,
+      "price": 2150,
+      "bedroom_count": 1,
       "full_bathroom_count": 1,
       "living_area_size": 0,
-      "lead_media_photo": "0e7d919e89b1f68bc83732e201ae79f4",
-      "url_path": "/building/8633-21-avenue-brooklyn/5j",
-      "street": "8635 21st Avenue"
+      "lead_media_photo": "69fce5a86f560117c5169dde040680ad",
+      "url_path": "/building/1844-bath-avenue-brooklyn/b7",
+      "street": "174 Bay 20th Street"
     }
   ],
   "geoData": [
@@ -2563,5 +2587,5 @@
       "lng": -73.8265648
     }
   ],
-  "generated_at": "2026-02-22T21:24:06.180Z"
+  "generated_at": "2026-03-01T19:35:16.182Z"
 }
