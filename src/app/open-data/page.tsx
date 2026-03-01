@@ -1,13 +1,15 @@
-'use client';
+import DownloadLink from '@/components/DownloadLink';
 
-const metadata = {
+export const metadata = {
   title: 'Open Data | FirstMover Open Data Project',
   description: 'Free NYC rental listing data. Monthly CSVs and rent stabilized building records.',
 };
 
 const PHOTO_URL_PATTERN = 'https://photos.zillowstatic.com/fp/{id}-se_extra_large_1500_800.webp';
 
-const monthlyData: { month: string; file: string; count: number; note?: string }[] = [
+const DATA_BASE = 'https://raw.githubusercontent.com/benfwalla/firstmover-open-data-project/main/public/data';
+
+const monthlyData = [
   { month: 'February 2026', file: '2026-02.csv', count: 16059 },
   { month: 'January 2026', file: '2026-01.csv', count: 17538 },
   { month: 'December 2025', file: '2025-12.csv', count: 15434 },
@@ -60,41 +62,14 @@ const COLUMNS = [
   { name: 'url', desc: 'Full StreetEasy listing URL' },
 ];
 
-function DownloadLink({ href, filename, children, ...props }: { href: string; filename: string; children: React.ReactNode; [key: string]: any }) {
-  return (
-    <a
-      href={href}
-      {...props}
-      onClick={(e) => {
-        e.preventDefault();
-        fetch(href)
-          .then(r => r.blob())
-          .then(blob => {
-            const url = URL.createObjectURL(blob);
-            const a = document.createElement('a');
-            a.href = url;
-            a.download = filename;
-            a.click();
-            URL.revokeObjectURL(url);
-          });
-      }}
-    >
-      {children}
-    </a>
-  );
-}
-
 export default function OpenDataPage() {
   return (
     <div className="publication-section narrow">
       <div className="section-header" style={{ marginBottom: '48px' }}>
         <h1 className="section-title" style={{ fontSize: '40px' }}>Open Data</h1>
-        <p className="section-subtitle">
-          Free NYC rental listing data.
-        </p>
+        <p className="section-subtitle">Free NYC rental listing data.</p>
       </div>
 
-      {/* Monthly Listing Data */}
       <div className="open-data-card">
         <h3 className="tool-title">Monthly Listing Data</h3>
         <p className="tool-description" style={{ marginBottom: '20px' }}>
@@ -113,25 +88,18 @@ export default function OpenDataPage() {
               {monthlyData.map((d) => (
                 <tr key={d.file}>
                   <td>
-                    <DownloadLink href={`https://raw.githubusercontent.com/benfwalla/firstmover-open-data-project/main/public/data/${d.file}`} filename={d.file} style={{ fontWeight: 500 }}>
+                    <DownloadLink href={`${DATA_BASE}/${d.file}`} filename={d.file} style={{ fontWeight: 500 }}>
                       {d.month}
                     </DownloadLink>
-                    {d.note && (
-                      <span style={{ fontSize: '12px', color: '#999', marginLeft: '8px' }}>
-                        *{d.note}
-                      </span>
-                    )}
+                    {d.note && <span style={{ fontSize: '12px', color: '#999', marginLeft: '8px' }}>*{d.note}</span>}
                   </td>
-                  <td style={{ textAlign: 'right', fontVariantNumeric: 'tabular-nums' }}>
-                    {d.count.toLocaleString()}
-                  </td>
+                  <td style={{ textAlign: 'right', fontVariantNumeric: 'tabular-nums' }}>{d.count.toLocaleString()}</td>
                 </tr>
               ))}
             </tbody>
           </table>
         </div>
 
-        {/* Column Reference — collapsible */}
         <details style={{ marginTop: '24px' }}>
           <summary style={{ cursor: 'pointer', fontWeight: 600, fontSize: '15px', color: 'var(--text)', padding: '8px 0' }}>
             Column Reference (34 columns)
@@ -160,22 +128,15 @@ export default function OpenDataPage() {
         </details>
       </div>
 
-      {/* Rent Stabilized Buildings */}
       <div className="open-data-card" style={{ marginTop: '32px' }}>
         <h3 className="tool-title">Rent Stabilized Buildings</h3>
         <p className="tool-description" style={{ marginBottom: '16px' }}>
           The NYC Rent Guidelines Board publishes rent-stabilized building data across all five boroughs, but it lives in PDFs that are hard to work with. We cleaned and standardized the listings, made them searchable, and added latitude/longitude coordinates so anyone can map the buildings.
         </p>
         <p className="tool-description" style={{ fontSize: '13px', color: '#999', marginBottom: '20px' }}>
-          The Rent Guidelines Board notes its data "...do not indicate which apartments in these buildings are rent stabilized, but rather, only those buildings that contain at least one rent stabilized unit." This is a hobby project and is not affiliated with NYC.gov.
+          The Rent Guidelines Board notes its data &ldquo;...do not indicate which apartments in these buildings are rent stabilized, but rather, only those buildings that contain at least one rent stabilized unit.&rdquo; This is a hobby project and is not affiliated with NYC.gov.
         </p>
-        <a
-          href="https://docs.google.com/spreadsheets/d/1_yUjWl9Z1z6T_8oRqXscOU6KFV25ECYgVO69lORFyxI/edit?usp=drivesdk"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="cta-button"
-          style={{ fontSize: '14px', padding: '10px 24px' }}
-        >
+        <a href="https://docs.google.com/spreadsheets/d/1_yUjWl9Z1z6T_8oRqXscOU6KFV25ECYgVO69lORFyxI/edit?usp=drivesdk" target="_blank" rel="noopener noreferrer" className="cta-button" style={{ fontSize: '14px', padding: '10px 24px' }}>
           View Google Sheet
         </a>
       </div>
