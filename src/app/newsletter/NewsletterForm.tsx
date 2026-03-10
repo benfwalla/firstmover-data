@@ -50,9 +50,18 @@ export default function NewsletterForm() {
 
       {status === 'success' ? (
           <div className="cta-section" style={{ marginTop: 0 }}>
-            <p style={{fontSize: 32}}>🎉 </p>
-            <p style={{ marginBottom: 0 }}>
-             Almost done! Confirm your subscription in the email we just sent.
+            <p style={{ marginBottom: '8px', fontSize:'17px', fontWeight: 500 }}>
+              🎉 Almost done!
+            </p>
+            <p style={{ marginBottom: '10px' }}>
+              Confirmation email sent. Click the link inside to finish signing up.
+            </p>
+            <div
+              aria-hidden="true"
+              style={{ borderTop: '1px solid #8C96A5', margin: '12px 0' }}
+            />
+            <p style={{ marginBottom: 0, color: 'var(--text-muted)', fontSize: '14px' }}>
+              Can't find it? Check your spam or promotions folder.
             </p>
           </div>
       ) : (
