@@ -63,6 +63,8 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
     headline: post.frontmatter.title,
     description: post.frontmatter.description,
     datePublished: post.frontmatter.date,
+    dateModified: post.frontmatter.date,
+    image: 'https://data.firstmovernyc.com/og-image.png',
     author: {
       '@type': 'Organization',
       name: 'FirstMover',
@@ -79,11 +81,21 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
     mainEntityOfPage: `https://data.firstmovernyc.com/blog/${resolvedParams.slug}`,
   };
 
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://data.firstmovernyc.com' },
+      { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://data.firstmovernyc.com/blog' },
+      { '@type': 'ListItem', position: 3, name: post.frontmatter.title },
+    ],
+  };
+
   return (
     <div className="publication-section narrow">
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify([articleJsonLd, breadcrumbJsonLd]) }}
       />
       <div className="container">
         {/* Header */}

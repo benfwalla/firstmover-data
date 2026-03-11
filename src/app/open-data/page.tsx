@@ -72,9 +72,38 @@ const COLUMNS = [
   { name: 'url', desc: 'Full StreetEasy listing URL' },
 ];
 
+const datasetJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Dataset',
+  name: 'NYC Rental Listing Data',
+  description: 'Monthly dataset of every StreetEasy rental listing in New York City. 34 columns including price, neighborhood, bedrooms, square footage, and more. Updated monthly.',
+  url: 'https://data.firstmovernyc.com/open-data',
+  license: 'https://creativecommons.org/publicdomain/zero/1.0/',
+  creator: {
+    '@type': 'Organization',
+    name: 'FirstMover',
+    url: 'https://firstmovernyc.com',
+  },
+  temporalCoverage: '2025-02/..',
+  spatialCoverage: {
+    '@type': 'Place',
+    name: 'New York City, NY',
+  },
+  distribution: monthlyData.map((d) => ({
+    '@type': 'DataDownload',
+    contentUrl: `https://raw.githubusercontent.com/benfwalla/firstmover-open-data-project/main/public/data/${d.file}`,
+    encodingFormat: 'text/csv',
+    name: d.month,
+  })),
+};
+
 export default function OpenDataPage() {
   return (
     <div className="publication-section narrow">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(datasetJsonLd) }}
+      />
       <div className="section-header" style={{ marginBottom: '48px' }}>
         <h1 className="section-title" style={{ fontSize: '40px' }}>Open Data</h1>
         <p className="section-subtitle">Free NYC rental listing data.</p>

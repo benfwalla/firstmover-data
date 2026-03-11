@@ -21,8 +21,11 @@ export const metadata: Metadata = {
   description:
     "Free NYC rental market data, monthly rent reports, and tools for apartment hunters. Powered by real-time StreetEasy listing data from FirstMover.",
   icons: {
-    icon: '/favicon.png',
-    apple: '/favicon.png',
+    icon: [
+      { url: '/favicon.ico', sizes: 'any' },
+      { url: '/favicon.png', type: 'image/png' },
+    ],
+    apple: '/apple-icon.png',
   },
   openGraph: {
     siteName: 'FirstMover Open Data Project',

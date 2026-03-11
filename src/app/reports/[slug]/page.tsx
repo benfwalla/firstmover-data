@@ -84,8 +84,46 @@ export default async function ReportPage({ params }: ReportPageProps) {
     DataAttribution,
   });
 
+  const articleJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: post.frontmatter.title,
+    description: post.frontmatter.description,
+    datePublished: post.frontmatter.date,
+    dateModified: post.frontmatter.date,
+    image: 'https://data.firstmovernyc.com/og-image.png',
+    author: {
+      '@type': 'Organization',
+      name: 'FirstMover',
+      url: 'https://firstmovernyc.com',
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'FirstMover',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://data.firstmovernyc.com/logo.svg',
+      },
+    },
+    mainEntityOfPage: `https://data.firstmovernyc.com/reports/${slug}`,
+  };
+
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://data.firstmovernyc.com' },
+      { '@type': 'ListItem', position: 2, name: 'Reports', item: 'https://data.firstmovernyc.com/reports' },
+      { '@type': 'ListItem', position: 3, name: post.frontmatter.title },
+    ],
+  };
+
   return (
     <div className="publication-section narrow">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify([articleJsonLd, breadcrumbJsonLd]) }}
+      />
       <div className="section-header" style={{ marginBottom: '48px' }}>
         <h1 className="section-title" style={{ fontSize: '40px' }}>{post.frontmatter.title}</h1>
         {post.frontmatter.description && (

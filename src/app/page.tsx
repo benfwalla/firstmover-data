@@ -1,5 +1,14 @@
 import Link from 'next/link';
 
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Free NYC Rental Market Data & Reports · FirstMover Open Data Project',
+  description: 'Free NYC rental listing data, monthly rent reports, and interactive tools for apartment hunters. Powered by real StreetEasy listing data, updated every month.',
+  alternates: { canonical: '/' },
+  openGraph: { url: '/', type: 'website' },
+};
+
 export default function HomePage() {
   return (
     <section className="home-hero">

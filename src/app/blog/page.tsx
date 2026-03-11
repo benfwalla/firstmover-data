@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { getPostsByType } from '@/lib/content';
 
 export const metadata: Metadata = {
-  title: 'Blog · FirstMover Open Data Project',
+  title: 'NYC Rent Blog · FirstMover Open Data Project',
   description: 'Data-driven insights on NYC\'s rental market. Neighborhood deep dives, rent trends, and guides powered by real StreetEasy listing data.',
   alternates: { canonical: '/blog' },
   openGraph: { url: '/blog' },
