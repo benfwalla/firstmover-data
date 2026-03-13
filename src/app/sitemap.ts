@@ -32,7 +32,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const neighborhoods = getAllNeighborhoodSlugs().map((slug) => ({
     url: `${baseUrl}/neighborhoods/${slug}`,
     lastModified: new Date(),
-    changeFrequency: 'weekly' as const,
+    changeFrequency: 'daily' as const,
   }));
 
   return [...staticPages, ...blogPosts, ...reports, ...neighborhoods];
