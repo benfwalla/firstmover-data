@@ -60,14 +60,6 @@ export default function HomePage() {
               <img src="/open/images/resource_preview.svg" alt="Resources preview" className="tool-card-preview" />
             </div>
           </Link>
-
-          {/* Neighborhoods */}
-          <Link href="/neighborhoods" className="tool-card" style={{ gridColumn: '1 / -1' }}>
-            <h3 className="tool-title">Neighborhoods</h3>
-            <p className="tool-description">
-              Rent prices, subway access, and commute times for 170+ NYC neighborhoods.
-            </p>
-          </Link>
         </div>
       </div>
     </section>
