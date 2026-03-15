@@ -27,7 +27,7 @@ const resources: Resource[] = [
   // Tools (our interactive stuff)
   {
     title: 'Find Your Neighborhood',
-    description: 'A short quiz that matches you to NYC neighborhoods based on your budget, lifestyle, and commute.',
+    description: 'Enter your budget, lifestyle, and commute, and we\'ll recommend the perfect neighborhoods.',
     href: '/tools/find-your-neighborhood',
     category: 'tools',
   },
@@ -42,6 +42,12 @@ const resources: Resource[] = [
     description: 'Compare your rent to the median in your neighborhood. Find out if you\'re overpaying.',
     href: '/tools/rent-check',
     category: 'tools',
+  },
+  {
+    title: 'Neighborhood Pages',
+    description: 'Detailed rental market data for 170+ NYC neighborhoods: median rents, trends, and active listings. Updated daily.',
+    href: '/neighborhoods',
+    category: 'research',
   },
 
   // Apartment Search

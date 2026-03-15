@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { getPostsByType } from '@/lib/content';
+import { BlogSubscribe } from './BlogSubscribe';
 
 export const metadata: Metadata = {
   title: 'NYC Rent Blog · FirstMover Open Data Project',
@@ -20,6 +21,8 @@ export default function BlogIndexPage() {
           Data-driven insights on NYC&apos;s rental market.
         </p>
       </div>
+
+      <BlogSubscribe />
 
       <div className="blog-posts-list">
         {posts.map((post) => (

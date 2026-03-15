@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { getPostsByType } from '@/lib/content';
+import { BlogSubscribe } from '../blog/BlogSubscribe';
 
 import type { Metadata } from 'next';
 
@@ -20,6 +21,8 @@ export default function ReportsPage() {
           Monthly rent reports breaking down what&apos;s happening across NYC.
         </p>
       </div>
+
+      <BlogSubscribe />
 
       <div className="blog-posts-list">
         {reports.map(post => (
