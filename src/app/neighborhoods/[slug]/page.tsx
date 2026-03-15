@@ -227,7 +227,7 @@ export default async function NeighborhoodPage({
                           rel="noopener noreferrer"
                           style={{ color: '#666', fontSize: '13px', textDecoration: 'none', whiteSpace: 'nowrap' }}
                         >
-                          View ↗
+                          StreetEasy ↗
                         </a>
                       </td>
                     )}
