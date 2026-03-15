@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   openGraph: {
     url: '/',
     type: 'website',
-    images: [{ url: '/images/landing/og_image_landing.png', width: 1200, height: 630 }],
+    images: [{ url: '/images/landing/og_image_landing.svg' }],
   },
 };
 
